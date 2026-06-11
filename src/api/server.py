@@ -609,19 +609,16 @@ def transcript_payload(diarization: DiarizationResult) -> list[dict[str, Any]]:
     ]
 
 
-def summarize_customer_behavior(customer_text: str, extraction: dict[str, Any]) -> dict[str, Any]:
-    text_lower = customer_text.lower()
-    hesitation = int(extraction.get("hesitation_score", 0))
-    urgency_terms = ["today", "tomorrow", "this week", "urgent", "immediately", "now"]
-    objection_terms = ["expensive", "costly", "not sure", "maybe", "think about", "later", "no emi", "confusing"]
-    buying_terms = ["need", "want", "buy", "purchase", "interested", "under", "budget"]
-
+def summarize_customer_behavior(customer_text: str, extraction: dict[str, Any], conversation_summary: dict[str, Any] = None) -> dict[str, Any]:
+    if conversation_summary is None:
+        conversation_summary = {}
+        
     return {
         "focus": "customer-only",
-        "intentSignals": sum(1 for term in buying_terms if term in text_lower),
-        "hesitationScore": hesitation,
-        "urgencySignals": sum(1 for term in urgency_terms if term in text_lower),
-        "objectionSignals": sum(1 for term in objection_terms if term in text_lower),
+        "intentSignals": conversation_summary.get("intentScore", 0),
+        "hesitationScore": conversation_summary.get("hesitationScore", 0),
+        "urgencySignals": conversation_summary.get("urgencyScore", 0),
+        "objectionSignals": len([f for f in extraction.get("raw_features", []) if f["label"] == "OBJECTION"]),
         "wordCount": len(customer_text.split()),
         "privacySafe": True,
     }
@@ -721,7 +718,7 @@ async def pipeline_response(
         "agentTranscript": agent_text,
         "privacy": privacy_info,
         "followUpAlerts": follow_up_alerts,
-        "customerBehaviorSummary": summarize_customer_behavior(llama_text, extraction),
+        "customerBehaviorSummary": summarize_customer_behavior(llama_text, extraction, conversation_summary),
         "conversationSummary": conversation_summary,
         "normalizedText": " ".join(text.split()),
         "rawFeatures": raw_features,

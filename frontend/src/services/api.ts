@@ -205,19 +205,24 @@ const toUiPrediction = (analysis: BackendAnalysis) => {
     ];
 
   const nextSteps = [];
-  if (risk === 'High') {
-    nextSteps.push('Offer flexible payment options (e.g., No-Cost EMI) to lower the entry barrier.');
-    nextSteps.push('Follow up within 24 hours specifically addressing their primary objection.');
-  } else if (risk === 'Medium') {
-    nextSteps.push('Highlight the long-term value and warranty of the product.');
-    nextSteps.push('Share case studies or testimonials related to their specific use-case.');
+  if (analysis.summary?.nextAction) {
+    nextSteps.push(analysis.summary.nextAction);
   } else {
-    nextSteps.push('Send the checkout link immediately to capitalize on high intent.');
-    nextSteps.push('Attempt to upsell an extended warranty or premium accessories.');
-  }
+    // Fallback if the backend doesn't provide it
+    if (risk === 'High') {
+      nextSteps.push('Offer flexible payment options (e.g., No-Cost EMI) to lower the entry barrier.');
+      nextSteps.push('Follow up within 24 hours specifically addressing their primary objection.');
+    } else if (risk === 'Medium') {
+      nextSteps.push('Highlight the long-term value and warranty of the product.');
+      nextSteps.push('Share case studies or testimonials related to their specific use-case.');
+    } else {
+      nextSteps.push('Send the checkout link immediately to capitalize on high intent.');
+      nextSteps.push('Attempt to upsell an extended warranty or premium accessories.');
+    }
 
-  if (insights.some(i => i.toLowerCase().includes('hesitant') || i.toLowerCase().includes('postponed'))) {
-    nextSteps.unshift('Identify their exact bottleneck (budget vs feature) to clear hesitation.');
+    if (insights.some(i => i.toLowerCase().includes('hesitant') || i.toLowerCase().includes('postponed'))) {
+      nextSteps.unshift('Identify their exact bottleneck (budget vs feature) to clear hesitation.');
+    }
   }
 
   return {

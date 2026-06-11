@@ -219,7 +219,10 @@ Return JSON:
   "customerNeed": "main customer requirement or interest",
   "keyPoints": ["3 to 5 important facts, preferences, objections, offers, or decisions"],
   "outcome": "current call outcome or decision status",
-  "nextAction": "best next step for the sales agent",
+  "nextAction": "A specific, dynamic recommendation for what the sales agent should do next based on this exact conversation (e.g., 'Follow up in 2 days to ask about their family discussion' instead of generic advice)",
+  "intentScore": "Number from 0 to 10 evaluating the customer's buying intent based on their words",
+  "hesitationScore": "Number from 0 to 10 evaluating how much the customer hesitated or delayed the decision",
+  "urgencyScore": "Number from 0 to 10 evaluating how urgently the customer needs the product/service",
   "confidence": 0.0
 }}
 
@@ -557,6 +560,9 @@ async def summarize_conversation(transcript: str, customer_text: str = "", agent
             "keyPoints": [str(item).strip() for item in key_points if str(item).strip()][:5],
             "outcome": str(data.get("outcome") or "").strip() or "Outcome not clearly stated.",
             "nextAction": str(data.get("nextAction") or "").strip() or "Follow up with the customer.",
+            "intentScore": int(data.get("intentScore") or 0) if str(data.get("intentScore")).isdigit() else 0,
+            "hesitationScore": int(data.get("hesitationScore") or 0) if str(data.get("hesitationScore")).isdigit() else 0,
+            "urgencyScore": int(data.get("urgencyScore") or 0) if str(data.get("urgencyScore")).isdigit() else 0,
             "confidence": confidence,
             "provider": f"llama:{MODEL}",
         }

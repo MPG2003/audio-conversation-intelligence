@@ -407,6 +407,10 @@ def _llm_based_diarization(whisper_segments: list[dict[str, Any]]) -> Diarizatio
 
     logger.info("Running LLM-based Diarization via Groq LLaMA-3-8B...")
     prompt = f"""You are an expert transcriber. Split the following block of text into a dialogue between a Sales Agent and a Customer.
+CRITICAL INSTRUCTION: Whisper sometimes groups words from BOTH people into a single sentence if they speak quickly. 
+If the agent asks a question and the customer answers immediately in the same line, you MUST split them into two separate turns!
+Example: "Sure, what will you use it for? Programming and basic gaming." -> Turn 1: Agent: "Sure, what will you use it for?", Turn 2: Customer: "Programming and basic gaming."
+
 Return a JSON object with a single key "turns" containing an array of objects.
 Each object must have "speaker" (either "Agent" or "Customer") and "text".
 Do not include any markdown or extra text.
