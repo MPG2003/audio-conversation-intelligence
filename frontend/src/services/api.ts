@@ -205,8 +205,8 @@ const toUiPrediction = (analysis: BackendAnalysis) => {
     ];
 
   const nextSteps = [];
-  if (analysis.summary?.nextAction) {
-    nextSteps.push(analysis.summary.nextAction);
+  if (analysis.conversationSummary?.nextAction) {
+    nextSteps.push(analysis.conversationSummary.nextAction);
   } else {
     // Fallback if the backend doesn't provide it
     if (risk === 'High') {
