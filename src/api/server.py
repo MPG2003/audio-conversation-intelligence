@@ -283,8 +283,13 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+from src.aspect_sentiment.groq_audio import GroqCloudTranscriber
+
 engine = AspectSentimentEngine()
-transcriber = WhisperTranscriber()
+if os.getenv("USE_GROQ_WHISPER", "true").lower() == "true":
+    transcriber = GroqCloudTranscriber()
+else:
+    transcriber = WhisperTranscriber()
 conversion_model = joblib.load(CONVERSION_MODEL_PATH)
 model_features = joblib.load(MODEL_FEATURES_PATH)
 

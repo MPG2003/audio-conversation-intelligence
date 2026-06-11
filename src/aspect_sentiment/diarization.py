@@ -396,9 +396,77 @@ def _load_pyannote_pipeline():
         return None
 
 
+def _llm_based_diarization(whisper_segments: list[dict[str, Any]]) -> DiarizationResult | None:
+    api_key = os.getenv("LLAMA_API_KEY") or os.getenv("GROQ_API_KEY")
+    if not api_key:
+        return None
+
+    full_text = " ".join(str(seg.get("text", "")).strip() for seg in whisper_segments if str(seg.get("text", "")).strip())
+    if not full_text:
+        return None
+
+    logger.info("Running LLM-based Diarization via Groq LLaMA-3-8B...")
+    prompt = f"""You are an expert transcriber. Split the following block of text into a dialogue between a Sales Agent and a Customer.
+Return a JSON object with a single key "turns" containing an array of objects.
+Each object must have "speaker" (either "Agent" or "Customer") and "text".
+Do not include any markdown or extra text.
+
+Text:
+{full_text}"""
+
+    try:
+        import httpx
+        import json
+        
+        response = httpx.post(
+            "https://api.groq.com/openai/v1/chat/completions",
+            headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+            json={
+                "model": "llama3-8b-8192",
+                "messages": [{"role": "user", "content": prompt}],
+                "temperature": 0.1,
+                "response_format": {"type": "json_object"}
+            },
+            timeout=60.0
+        )
+        response.raise_for_status()
+        
+        content = response.json()["choices"][0]["message"]["content"]
+        parsed = json.loads(content)
+        
+        raw_turns = parsed.get("turns", [])
+        turns = []
+        for i, rt in enumerate(raw_turns):
+            turns.append(TranscriptTurn(
+                speaker=rt.get("speaker", _guess_speaker_from_text(rt.get("text", ""), i)),
+                raw_speaker="SPEAKER_LLM",
+                text=rt.get("text", ""),
+                start=0.0,
+                end=1.0,
+            ))
+            
+        return DiarizationResult(
+            turns=_merge_turns(turns),
+            speaker_map={"SPEAKER_LLM": "Agent/Customer"},
+            provider="groq-llama-3-8b",
+        )
+    except Exception as exc:
+        logger.warning(f"LLM Diarization failed: {exc}")
+        return None
+
+
 def diarize_audio_segments(audio_path: Path, whisper_segments: list[dict[str, Any]]) -> DiarizationResult:
     if not whisper_segments:
         return DiarizationResult(turns=[], provider="empty")
+        
+    use_groq = os.getenv("USE_GROQ_WHISPER", "true").lower() == "true"
+    if use_groq:
+        logger.info("USE_GROQ_WHISPER is active. Bypassing Pyannote and using LLM Diarization.")
+        result = _llm_based_diarization(whisper_segments)
+        if result is not None:
+            return result
+        # Fallback if LLM fails
+        return _heuristic_audio_diarization(whisper_segments, provider="heuristic-groq-fallback")
 
     backend = os.getenv("DIARIZATION_BACKEND", "free-local").strip().lower()
     if backend in {"free", "free-local", "local", "kmeans"}:
