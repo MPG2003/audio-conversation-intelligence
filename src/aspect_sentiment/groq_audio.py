@@ -22,10 +22,11 @@ class GroqCloudTranscriber:
         if not self.api_key:
             logger.warning("No LLAMA_API_KEY found. GroqCloudTranscriber will fail.")
 
-    def transcribe(self, audio_path: Path, language_hint: str | None = None) -> TranscriptionResult:
+    def transcribe(self, audio_path: Path | str, language_hint: str | None = None) -> TranscriptionResult:
         if not self.api_key:
             raise ValueError("LLAMA_API_KEY is not set. Cannot use Groq Whisper.")
 
+        audio_path = Path(audio_path)
         logger.info("Transcribing audio via Groq Cloud API (whisper-large-v3-turbo)...")
         
         # Determine content type based on extension (fallback to mpeg)
