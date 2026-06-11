@@ -1,0 +1,136 @@
+{
+  "model_name": "random_forest",
+  "accuracy": 0.7325,
+  "precision": 0.6979,
+  "recall": 0.82,
+  "f1": 0.754,
+  "roc_auc": 0.7661,
+  "classification_threshold": 0.44,
+  "confusion_matrix": [
+    [
+      129,
+      71
+    ],
+    [
+      36,
+      164
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.7818181818181819,
+      "recall": 0.645,
+      "f1-score": 0.7068493150684931,
+      "support": 200.0
+    },
+    "1": {
+      "precision": 0.6978723404255319,
+      "recall": 0.82,
+      "f1-score": 0.7540229885057471,
+      "support": 200.0
+    },
+    "accuracy": 0.7325,
+    "macro avg": {
+      "precision": 0.7398452611218569,
+      "recall": 0.7324999999999999,
+      "f1-score": 0.7304361517871201,
+      "support": 400.0
+    },
+    "weighted avg": {
+      "precision": 0.7398452611218569,
+      "recall": 0.7325,
+      "f1-score": 0.7304361517871201,
+      "support": 400.0
+    }
+  },
+  "test_rows": 400,
+  "train_rows": 1600,
+  "feature_count": 59,
+  "leaderboard": [
+    {
+      "name": "random_forest",
+      "cv_accuracy": 0.6965,
+      "cv_precision": 0.6921,
+      "cv_recall": 0.708,
+      "cv_f1": 0.6999,
+      "cv_roc_auc": 0.746,
+      "holdout_accuracy": 0.7325,
+      "holdout_precision": 0.6979,
+      "holdout_recall": 0.82,
+      "holdout_f1": 0.754,
+      "holdout_roc_auc": 0.7661,
+      "threshold": 0.44
+    },
+    {
+      "name": "soft_voting",
+      "cv_accuracy": 0.7045,
+      "cv_precision": 0.7024,
+      "cv_recall": 0.71,
+      "cv_f1": 0.706,
+      "cv_roc_auc": 0.7469,
+      "holdout_accuracy": 0.7325,
+      "holdout_precision": 0.7067,
+      "holdout_recall": 0.795,
+      "holdout_f1": 0.7482,
+      "holdout_roc_auc": 0.7619,
+      "threshold": 0.46
+    },
+    {
+      "name": "logistic_regression",
+      "cv_accuracy": 0.7045,
+      "cv_precision": 0.706,
+      "cv_recall": 0.701,
+      "cv_f1": 0.7032,
+      "cv_roc_auc": 0.7421,
+      "holdout_accuracy": 0.7275,
+      "holdout_precision": 0.7116,
+      "holdout_recall": 0.765,
+      "holdout_f1": 0.7373,
+      "holdout_roc_auc": 0.7614,
+      "threshold": 0.46
+    },
+    {
+      "name": "xgboost",
+      "cv_accuracy": 0.694,
+      "cv_precision": 0.6918,
+      "cv_recall": 0.699,
+      "cv_f1": 0.6951,
+      "cv_roc_auc": 0.7423,
+      "holdout_accuracy": 0.7175,
+      "holdout_precision": 0.7081,
+      "holdout_recall": 0.74,
+      "holdout_f1": 0.7237,
+      "holdout_roc_auc": 0.7535,
+      "threshold": 0.49
+    },
+    {
+      "name": "extra_trees",
+      "cv_accuracy": 0.698,
+      "cv_precision": 0.6921,
+      "cv_recall": 0.713,
+      "cv_f1": 0.7023,
+      "cv_roc_auc": 0.7398,
+      "holdout_accuracy": 0.7175,
+      "holdout_precision": 0.682,
+      "holdout_recall": 0.815,
+      "holdout_f1": 0.7426,
+      "holdout_roc_auc": 0.7507,
+      "threshold": 0.45
+    },
+    {
+      "name": "gradient_boosting",
+      "cv_accuracy": 0.6935,
+      "cv_precision": 0.6926,
+      "cv_recall": 0.696,
+      "cv_f1": 0.6941,
+      "cv_roc_auc": 0.7375,
+      "holdout_accuracy": 0.7175,
+      "holdout_precision": 0.6968,
+      "holdout_recall": 0.77,
+      "holdout_f1": 0.7316,
+      "holdout_roc_auc": 0.7448,
+      "threshold": 0.46
+    }
+  ],
+  "production_note": "This is an honest holdout score. Reaching 80%+ will likely require more real labeled conversation outcomes or stronger labels, because all tested model families cluster around the low 70s on the current dataset."
+}

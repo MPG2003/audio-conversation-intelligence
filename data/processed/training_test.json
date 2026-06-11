@@ -1,0 +1,6082 @@
+[
+  {
+    "text": "Can I get HubSpot CRM because my current one has data sync problem",
+    "entities": [
+      [
+        10,
+        21,
+        "PRODUCT"
+      ],
+      [
+        49,
+        66,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for SAP Customer Experience with automation and integration with ERP systems",
+    "entities": [
+      [
+        19,
+        42,
+        "PRODUCT"
+      ],
+      [
+        48,
+        58,
+        "FEATURE"
+      ],
+      [
+        80,
+        91,
+        "INTEGRATION"
+      ]
+    ]
+  },
+  {
+    "text": "I need a gaming phone",
+    "entities": [
+      [
+        9,
+        21,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for CRM system with integration with payment gateways and my budget is tight",
+    "entities": [
+      [
+        12,
+        22,
+        "REQUIREMENT"
+      ],
+      [
+        45,
+        61,
+        "INTEGRATION"
+      ],
+      [
+        66,
+        84,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get OnePlus 11",
+    "entities": [
+      [
+        10,
+        20,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest HubSpot CRM with secure system",
+    "entities": [
+      [
+        15,
+        26,
+        "PRODUCT"
+      ],
+      [
+        32,
+        45,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest OnePlus 11 because my current one has charging problem",
+    "entities": [
+      [
+        16,
+        26,
+        "PRODUCT"
+      ],
+      [
+        54,
+        70,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest HubSpot CRM but facing system delay",
+    "entities": [
+      [
+        16,
+        27,
+        "PRODUCT"
+      ],
+      [
+        39,
+        51,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest SAP Customer Experience but limited budget",
+    "entities": [
+      [
+        16,
+        39,
+        "PRODUCT"
+      ],
+      [
+        44,
+        58,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I need Samsung Galaxy S23",
+    "entities": [
+      [
+        7,
+        25,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for laptop for office work with high performance",
+    "entities": [
+      [
+        17,
+        39,
+        "REQUIREMENT"
+      ],
+      [
+        45,
+        61,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I want a phone for photography",
+    "entities": [
+      [
+        9,
+        30,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "I want HubSpot CRM but facing system delay",
+    "entities": [
+      [
+        7,
+        18,
+        "PRODUCT"
+      ],
+      [
+        30,
+        42,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest budget phone with good display, but low budget",
+    "entities": [
+      [
+        16,
+        28,
+        "PRODUCT"
+      ],
+      [
+        34,
+        46,
+        "FEATURE"
+      ],
+      [
+        52,
+        62,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest SAP Customer Experience with user friendly and integration with payment gateways",
+    "entities": [
+      [
+        15,
+        38,
+        "PRODUCT"
+      ],
+      [
+        44,
+        57,
+        "FEATURE"
+      ],
+      [
+        79,
+        95,
+        "INTEGRATION"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest CRM software",
+    "entities": [
+      [
+        15,
+        27,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for OnePlus 11 with good camera",
+    "entities": [
+      [
+        19,
+        29,
+        "PRODUCT"
+      ],
+      [
+        35,
+        46,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I need CRM software with secure system",
+    "entities": [
+      [
+        7,
+        19,
+        "REQUIREMENT"
+      ],
+      [
+        25,
+        38,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest SAP Sales Cloud",
+    "entities": [
+      [
+        16,
+        31,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest laptop for travel and within 1 lakh",
+    "entities": [
+      [
+        15,
+        32,
+        "REQUIREMENT"
+      ],
+      [
+        37,
+        50,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get HubSpot CRM but I have a low budget",
+    "entities": [
+      [
+        10,
+        21,
+        "PRODUCT"
+      ],
+      [
+        26,
+        45,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest gaming laptop because my current one has keyboard not working",
+    "entities": [
+      [
+        15,
+        28,
+        "PRODUCT"
+      ],
+      [
+        56,
+        76,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest phone for gaming and around 80k",
+    "entities": [
+      [
+        15,
+        31,
+        "REQUIREMENT"
+      ],
+      [
+        36,
+        46,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get CRM solution with integration with third-party tools and within 1 lakh",
+    "entities": [
+      [
+        10,
+        22,
+        "REQUIREMENT"
+      ],
+      [
+        45,
+        62,
+        "INTEGRATION"
+      ],
+      [
+        67,
+        80,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get Salesforce CRM with secure system and under 90000",
+    "entities": [
+      [
+        10,
+        24,
+        "PRODUCT"
+      ],
+      [
+        30,
+        43,
+        "FEATURE"
+      ],
+      [
+        48,
+        59,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest student laptop with long battery life",
+    "entities": [
+      [
+        16,
+        30,
+        "PRODUCT"
+      ],
+      [
+        36,
+        53,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for MacBook Pro but my budget is low",
+    "entities": [
+      [
+        17,
+        28,
+        "PRODUCT"
+      ],
+      [
+        33,
+        49,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for office laptop that has long battery life",
+    "entities": [
+      [
+        19,
+        32,
+        "PRODUCT"
+      ],
+      [
+        42,
+        59,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest Salesforce CRM with customer interaction and integration with payment gateways",
+    "entities": [
+      [
+        16,
+        30,
+        "PRODUCT"
+      ],
+      [
+        36,
+        56,
+        "FEATURE"
+      ],
+      [
+        78,
+        94,
+        "INTEGRATION"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest OnePlus 11 that has smooth performance",
+    "entities": [
+      [
+        15,
+        25,
+        "PRODUCT"
+      ],
+      [
+        35,
+        53,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for HP Pavilion with SSD storage",
+    "entities": [
+      [
+        12,
+        23,
+        "PRODUCT"
+      ],
+      [
+        29,
+        40,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest MacBook Pro that has quiet fans",
+    "entities": [
+      [
+        15,
+        26,
+        "PRODUCT"
+      ],
+      [
+        36,
+        46,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I want a Lenovo ThinkPad",
+    "entities": [
+      [
+        9,
+        24,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get HP Pavilion",
+    "entities": [
+      [
+        10,
+        21,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "low budget",
+    "entities": [
+      [
+        0,
+        10,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get ASUS ROG laptop but budget under 1 lakh",
+    "entities": [
+      [
+        10,
+        25,
+        "PRODUCT"
+      ],
+      [
+        30,
+        49,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get a Lenovo ThinkPad",
+    "entities": [
+      [
+        12,
+        27,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for Salesforce CRM with customer interaction",
+    "entities": [
+      [
+        19,
+        33,
+        "PRODUCT"
+      ],
+      [
+        39,
+        59,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I need budget phone with long battery life",
+    "entities": [
+      [
+        7,
+        19,
+        "PRODUCT"
+      ],
+      [
+        25,
+        42,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for student laptop because my current one has keyboard not working",
+    "entities": [
+      [
+        17,
+        31,
+        "PRODUCT"
+      ],
+      [
+        59,
+        79,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "I want CRM software with integration with ERP systems and I am on a tight budget",
+    "entities": [
+      [
+        7,
+        19,
+        "REQUIREMENT"
+      ],
+      [
+        42,
+        53,
+        "INTEGRATION"
+      ],
+      [
+        58,
+        80,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for student laptop with backlit keyboard, but limited budget",
+    "entities": [
+      [
+        12,
+        26,
+        "PRODUCT"
+      ],
+      [
+        32,
+        48,
+        "FEATURE"
+      ],
+      [
+        54,
+        68,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for laptop for gaming with backlit keyboard and budget under 1 lakh",
+    "entities": [
+      [
+        19,
+        36,
+        "REQUIREMENT"
+      ],
+      [
+        42,
+        58,
+        "FEATURE"
+      ],
+      [
+        63,
+        82,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest SAP Customer Experience but affordable price",
+    "entities": [
+      [
+        16,
+        39,
+        "PRODUCT"
+      ],
+      [
+        44,
+        60,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for Salesforce CRM with analytics, but within 1 lakh",
+    "entities": [
+      [
+        19,
+        33,
+        "PRODUCT"
+      ],
+      [
+        39,
+        48,
+        "FEATURE"
+      ],
+      [
+        54,
+        67,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I need HubSpot CRM because my current one has login issue",
+    "entities": [
+      [
+        7,
+        18,
+        "PRODUCT"
+      ],
+      [
+        46,
+        57,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "I want SAP Sales Cloud with automation",
+    "entities": [
+      [
+        7,
+        22,
+        "PRODUCT"
+      ],
+      [
+        28,
+        38,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Need something with SSD storage",
+    "entities": [
+      [
+        20,
+        31,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for SAP Customer Experience",
+    "entities": [
+      [
+        12,
+        35,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for office laptop with high performance and under 50k",
+    "entities": [
+      [
+        19,
+        32,
+        "PRODUCT"
+      ],
+      [
+        38,
+        54,
+        "FEATURE"
+      ],
+      [
+        59,
+        68,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I need Samsung Galaxy S23 with high refresh rate and low budget",
+    "entities": [
+      [
+        7,
+        25,
+        "PRODUCT"
+      ],
+      [
+        31,
+        48,
+        "FEATURE"
+      ],
+      [
+        53,
+        63,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for CRM software with automation and under 70000",
+    "entities": [
+      [
+        12,
+        24,
+        "REQUIREMENT"
+      ],
+      [
+        30,
+        40,
+        "FEATURE"
+      ],
+      [
+        45,
+        56,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for a Samsung Galaxy S23",
+    "entities": [
+      [
+        21,
+        39,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "I need laptop for college with lightweight design",
+    "entities": [
+      [
+        7,
+        25,
+        "REQUIREMENT"
+      ],
+      [
+        31,
+        49,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Need something with good graphics",
+    "entities": [
+      [
+        20,
+        33,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get business laptop but around 90000",
+    "entities": [
+      [
+        10,
+        25,
+        "PRODUCT"
+      ],
+      [
+        30,
+        42,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I want iPhone 14 with fast charging and too expensive",
+    "entities": [
+      [
+        7,
+        16,
+        "PRODUCT"
+      ],
+      [
+        22,
+        35,
+        "FEATURE"
+      ],
+      [
+        40,
+        53,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest MacBook Pro with backlit keyboard",
+    "entities": [
+      [
+        15,
+        26,
+        "PRODUCT"
+      ],
+      [
+        32,
+        48,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for HubSpot CRM with automation and integration with ERP systems",
+    "entities": [
+      [
+        17,
+        28,
+        "PRODUCT"
+      ],
+      [
+        34,
+        44,
+        "FEATURE"
+      ],
+      [
+        66,
+        77,
+        "INTEGRATION"
+      ]
+    ]
+  },
+  {
+    "text": "I want phone for daily use with smooth performance and around 90000",
+    "entities": [
+      [
+        7,
+        26,
+        "REQUIREMENT"
+      ],
+      [
+        32,
+        50,
+        "FEATURE"
+      ],
+      [
+        55,
+        67,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest iPhone 14 with good display",
+    "entities": [
+      [
+        16,
+        25,
+        "PRODUCT"
+      ],
+      [
+        31,
+        43,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest OnePlus 11",
+    "entities": [
+      [
+        15,
+        25,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "I want HubSpot CRM with automation and I have a low budget",
+    "entities": [
+      [
+        7,
+        18,
+        "PRODUCT"
+      ],
+      [
+        24,
+        34,
+        "FEATURE"
+      ],
+      [
+        39,
+        58,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest a creator laptop",
+    "entities": [
+      [
+        17,
+        31,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "Need something with lightweight design",
+    "entities": [
+      [
+        20,
+        38,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I need CRM system with integration with third-party tools and tight budget",
+    "entities": [
+      [
+        7,
+        17,
+        "REQUIREMENT"
+      ],
+      [
+        40,
+        57,
+        "INTEGRATION"
+      ],
+      [
+        62,
+        74,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest a SAP Sales Cloud",
+    "entities": [
+      [
+        17,
+        32,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for phone for gaming and low budget",
+    "entities": [
+      [
+        19,
+        35,
+        "REQUIREMENT"
+      ],
+      [
+        40,
+        50,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest a Samsung Galaxy S23",
+    "entities": [
+      [
+        18,
+        36,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest HubSpot CRM but facing slow performance",
+    "entities": [
+      [
+        15,
+        26,
+        "PRODUCT"
+      ],
+      [
+        38,
+        54,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for a student laptop",
+    "entities": [
+      [
+        19,
+        33,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "I need CRM solution and within 1 lakh",
+    "entities": [
+      [
+        7,
+        19,
+        "REQUIREMENT"
+      ],
+      [
+        24,
+        37,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I want HubSpot CRM with user friendly and under 100k",
+    "entities": [
+      [
+        7,
+        18,
+        "PRODUCT"
+      ],
+      [
+        24,
+        37,
+        "FEATURE"
+      ],
+      [
+        42,
+        52,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get CRM solution with user friendly and my budget is low",
+    "entities": [
+      [
+        10,
+        22,
+        "REQUIREMENT"
+      ],
+      [
+        28,
+        41,
+        "FEATURE"
+      ],
+      [
+        46,
+        62,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for Samsung Galaxy S23 with long battery life and low budget",
+    "entities": [
+      [
+        17,
+        35,
+        "PRODUCT"
+      ],
+      [
+        41,
+        58,
+        "FEATURE"
+      ],
+      [
+        63,
+        73,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for SAP Sales Cloud because my current one has login issue",
+    "entities": [
+      [
+        17,
+        32,
+        "PRODUCT"
+      ],
+      [
+        60,
+        71,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest a phone for content creation",
+    "entities": [
+      [
+        17,
+        43,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get student laptop but within 60000",
+    "entities": [
+      [
+        10,
+        24,
+        "PRODUCT"
+      ],
+      [
+        29,
+        41,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get phone for content creation with long battery life",
+    "entities": [
+      [
+        10,
+        36,
+        "REQUIREMENT"
+      ],
+      [
+        42,
+        59,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for a MacBook Pro",
+    "entities": [
+      [
+        21,
+        32,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "I need a laptop for video editing",
+    "entities": [
+      [
+        9,
+        33,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "I need iPhone 14 but under 50k",
+    "entities": [
+      [
+        7,
+        16,
+        "PRODUCT"
+      ],
+      [
+        21,
+        30,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest Samsung Galaxy S23 because my current one has heating issue",
+    "entities": [
+      [
+        15,
+        33,
+        "PRODUCT"
+      ],
+      [
+        61,
+        74,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest laptop for college",
+    "entities": [
+      [
+        15,
+        33,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get budget phone with good camera",
+    "entities": [
+      [
+        10,
+        22,
+        "PRODUCT"
+      ],
+      [
+        28,
+        39,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest laptop for everyday use with good cooling and low budget",
+    "entities": [
+      [
+        15,
+        38,
+        "REQUIREMENT"
+      ],
+      [
+        44,
+        56,
+        "FEATURE"
+      ],
+      [
+        61,
+        71,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for SAP Customer Experience with customer interaction, but I have a low budget",
+    "entities": [
+      [
+        17,
+        40,
+        "PRODUCT"
+      ],
+      [
+        46,
+        66,
+        "FEATURE"
+      ],
+      [
+        72,
+        91,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I want gaming phone with long battery life",
+    "entities": [
+      [
+        7,
+        19,
+        "PRODUCT"
+      ],
+      [
+        25,
+        42,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get laptop for gaming and my budget is tight",
+    "entities": [
+      [
+        10,
+        27,
+        "REQUIREMENT"
+      ],
+      [
+        32,
+        50,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I need Dell XPS 13 because my current one has keyboard not working",
+    "entities": [
+      [
+        7,
+        18,
+        "PRODUCT"
+      ],
+      [
+        46,
+        66,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest CRM software with user friendly and around 50k",
+    "entities": [
+      [
+        16,
+        28,
+        "REQUIREMENT"
+      ],
+      [
+        34,
+        47,
+        "FEATURE"
+      ],
+      [
+        52,
+        62,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for SAP Sales Cloud that has user friendly",
+    "entities": [
+      [
+        19,
+        34,
+        "PRODUCT"
+      ],
+      [
+        44,
+        57,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get CRM system with integration with mobile apps and under 50k",
+    "entities": [
+      [
+        10,
+        20,
+        "REQUIREMENT"
+      ],
+      [
+        43,
+        54,
+        "INTEGRATION"
+      ],
+      [
+        59,
+        68,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for business laptop with SSD storage",
+    "entities": [
+      [
+        17,
+        32,
+        "PRODUCT"
+      ],
+      [
+        38,
+        49,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for something with fast processor",
+    "entities": [
+      [
+        34,
+        48,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get Samsung Galaxy S23 with good display, but budget under 1 lakh",
+    "entities": [
+      [
+        10,
+        28,
+        "PRODUCT"
+      ],
+      [
+        34,
+        46,
+        "FEATURE"
+      ],
+      [
+        52,
+        71,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for a phone for daily use",
+    "entities": [
+      [
+        14,
+        33,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "I want HubSpot CRM with customer interaction",
+    "entities": [
+      [
+        7,
+        18,
+        "PRODUCT"
+      ],
+      [
+        24,
+        44,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest CRM solution with analytics and under 70000",
+    "entities": [
+      [
+        15,
+        27,
+        "REQUIREMENT"
+      ],
+      [
+        33,
+        42,
+        "FEATURE"
+      ],
+      [
+        47,
+        58,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for camera phone that has good camera",
+    "entities": [
+      [
+        17,
+        29,
+        "PRODUCT"
+      ],
+      [
+        39,
+        50,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for gaming phone with long battery life, but too expensive",
+    "entities": [
+      [
+        19,
+        31,
+        "PRODUCT"
+      ],
+      [
+        37,
+        54,
+        "FEATURE"
+      ],
+      [
+        60,
+        73,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest camera phone with good camera",
+    "entities": [
+      [
+        15,
+        27,
+        "PRODUCT"
+      ],
+      [
+        33,
+        44,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I want something with backlit keyboard",
+    "entities": [
+      [
+        22,
+        38,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest creator laptop with good cooling",
+    "entities": [
+      [
+        15,
+        29,
+        "PRODUCT"
+      ],
+      [
+        35,
+        47,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for SAP Sales Cloud with analytics, but I am on a tight budget",
+    "entities": [
+      [
+        17,
+        32,
+        "PRODUCT"
+      ],
+      [
+        38,
+        47,
+        "FEATURE"
+      ],
+      [
+        53,
+        75,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for iPhone 14 but too expensive",
+    "entities": [
+      [
+        17,
+        26,
+        "PRODUCT"
+      ],
+      [
+        31,
+        44,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for MacBook Pro but under 90000",
+    "entities": [
+      [
+        19,
+        30,
+        "PRODUCT"
+      ],
+      [
+        35,
+        46,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I need phone for daily use and too expensive",
+    "entities": [
+      [
+        7,
+        26,
+        "REQUIREMENT"
+      ],
+      [
+        31,
+        44,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest SAP Sales Cloud with reporting",
+    "entities": [
+      [
+        15,
+        30,
+        "PRODUCT"
+      ],
+      [
+        36,
+        45,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest something with quiet fans",
+    "entities": [
+      [
+        31,
+        41,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for gaming phone but within 60000",
+    "entities": [
+      [
+        17,
+        29,
+        "PRODUCT"
+      ],
+      [
+        34,
+        46,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest Dell XPS 13 with high performance",
+    "entities": [
+      [
+        15,
+        26,
+        "PRODUCT"
+      ],
+      [
+        32,
+        48,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest budget phone that has fast charging",
+    "entities": [
+      [
+        15,
+        27,
+        "PRODUCT"
+      ],
+      [
+        37,
+        50,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get a student laptop",
+    "entities": [
+      [
+        12,
+        26,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for laptop for video editing and I have a low budget",
+    "entities": [
+      [
+        12,
+        36,
+        "REQUIREMENT"
+      ],
+      [
+        41,
+        60,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I want SAP Sales Cloud but facing data sync problem",
+    "entities": [
+      [
+        7,
+        22,
+        "PRODUCT"
+      ],
+      [
+        34,
+        51,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest gaming phone that has long battery life",
+    "entities": [
+      [
+        15,
+        27,
+        "PRODUCT"
+      ],
+      [
+        37,
+        54,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get gaming laptop but affordable price",
+    "entities": [
+      [
+        10,
+        23,
+        "PRODUCT"
+      ],
+      [
+        28,
+        44,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest CRM solution with customer interaction",
+    "entities": [
+      [
+        16,
+        28,
+        "REQUIREMENT"
+      ],
+      [
+        34,
+        54,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get MacBook Pro with long battery life and budget is low",
+    "entities": [
+      [
+        10,
+        21,
+        "PRODUCT"
+      ],
+      [
+        27,
+        44,
+        "FEATURE"
+      ],
+      [
+        49,
+        62,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get phone for daily use with high refresh rate and around 80k",
+    "entities": [
+      [
+        10,
+        29,
+        "REQUIREMENT"
+      ],
+      [
+        35,
+        52,
+        "FEATURE"
+      ],
+      [
+        57,
+        67,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for HubSpot CRM but facing data sync problem",
+    "entities": [
+      [
+        19,
+        30,
+        "PRODUCT"
+      ],
+      [
+        42,
+        59,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "I want CRM system",
+    "entities": [
+      [
+        7,
+        17,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for something with long battery life",
+    "entities": [
+      [
+        27,
+        44,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for ASUS ROG laptop",
+    "entities": [
+      [
+        12,
+        27,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get phone for gaming with long battery life",
+    "entities": [
+      [
+        10,
+        26,
+        "REQUIREMENT"
+      ],
+      [
+        32,
+        49,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get MacBook Pro that has good graphics",
+    "entities": [
+      [
+        10,
+        21,
+        "PRODUCT"
+      ],
+      [
+        31,
+        44,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for HubSpot CRM but facing data sync problem",
+    "entities": [
+      [
+        12,
+        23,
+        "PRODUCT"
+      ],
+      [
+        35,
+        52,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest HubSpot CRM with secure system and around 50k",
+    "entities": [
+      [
+        16,
+        27,
+        "PRODUCT"
+      ],
+      [
+        33,
+        46,
+        "FEATURE"
+      ],
+      [
+        51,
+        61,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get laptop for coding with backlit keyboard and within 1 lakh",
+    "entities": [
+      [
+        10,
+        27,
+        "REQUIREMENT"
+      ],
+      [
+        33,
+        49,
+        "FEATURE"
+      ],
+      [
+        54,
+        67,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest gaming phone with long battery life and too expensive",
+    "entities": [
+      [
+        15,
+        27,
+        "PRODUCT"
+      ],
+      [
+        33,
+        50,
+        "FEATURE"
+      ],
+      [
+        55,
+        68,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I want Lenovo ThinkPad because my current one has slow performance",
+    "entities": [
+      [
+        7,
+        22,
+        "PRODUCT"
+      ],
+      [
+        50,
+        66,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for business laptop that has good graphics",
+    "entities": [
+      [
+        19,
+        34,
+        "PRODUCT"
+      ],
+      [
+        44,
+        57,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for SAP Sales Cloud because my current one has data sync problem",
+    "entities": [
+      [
+        12,
+        27,
+        "PRODUCT"
+      ],
+      [
+        55,
+        72,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for budget phone that has smooth performance",
+    "entities": [
+      [
+        17,
+        29,
+        "PRODUCT"
+      ],
+      [
+        39,
+        57,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I want something with high refresh rate",
+    "entities": [
+      [
+        22,
+        39,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest SAP Customer Experience because my current one has slow performance",
+    "entities": [
+      [
+        15,
+        38,
+        "PRODUCT"
+      ],
+      [
+        66,
+        82,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "I need gaming phone that has long battery life",
+    "entities": [
+      [
+        7,
+        19,
+        "PRODUCT"
+      ],
+      [
+        29,
+        46,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for iPhone 14 because my current one has battery draining fast",
+    "entities": [
+      [
+        19,
+        28,
+        "PRODUCT"
+      ],
+      [
+        56,
+        77,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for a phone for photography",
+    "entities": [
+      [
+        14,
+        35,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest laptop for coding",
+    "entities": [
+      [
+        15,
+        32,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "I need camera phone but tight budget",
+    "entities": [
+      [
+        7,
+        19,
+        "PRODUCT"
+      ],
+      [
+        24,
+        36,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for phone for content creation and under 90000",
+    "entities": [
+      [
+        19,
+        45,
+        "REQUIREMENT"
+      ],
+      [
+        50,
+        61,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I want a Salesforce CRM",
+    "entities": [
+      [
+        9,
+        23,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "I want laptop for video editing with backlit keyboard and under 90000",
+    "entities": [
+      [
+        7,
+        31,
+        "REQUIREMENT"
+      ],
+      [
+        37,
+        53,
+        "FEATURE"
+      ],
+      [
+        58,
+        69,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest iPhone 14 that has good display",
+    "entities": [
+      [
+        16,
+        25,
+        "PRODUCT"
+      ],
+      [
+        35,
+        47,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest phone for photography",
+    "entities": [
+      [
+        16,
+        37,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for budget phone with good camera",
+    "entities": [
+      [
+        17,
+        29,
+        "PRODUCT"
+      ],
+      [
+        35,
+        46,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I need HP Pavilion with SSD storage",
+    "entities": [
+      [
+        7,
+        18,
+        "PRODUCT"
+      ],
+      [
+        24,
+        35,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest iPhone 14 with smooth performance",
+    "entities": [
+      [
+        15,
+        24,
+        "PRODUCT"
+      ],
+      [
+        30,
+        48,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I want camera phone because my current one has heating issue",
+    "entities": [
+      [
+        7,
+        19,
+        "PRODUCT"
+      ],
+      [
+        47,
+        60,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest laptop for gaming with high performance and budget under 1 lakh",
+    "entities": [
+      [
+        15,
+        32,
+        "REQUIREMENT"
+      ],
+      [
+        38,
+        54,
+        "FEATURE"
+      ],
+      [
+        59,
+        78,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get CRM system",
+    "entities": [
+      [
+        10,
+        20,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest ASUS ROG laptop with high refresh rate",
+    "entities": [
+      [
+        16,
+        31,
+        "PRODUCT"
+      ],
+      [
+        37,
+        54,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I need CRM system with integration with mobile apps and under 100k",
+    "entities": [
+      [
+        7,
+        17,
+        "REQUIREMENT"
+      ],
+      [
+        40,
+        51,
+        "INTEGRATION"
+      ],
+      [
+        56,
+        66,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for budget phone that has high refresh rate",
+    "entities": [
+      [
+        17,
+        29,
+        "PRODUCT"
+      ],
+      [
+        39,
+        56,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for budget phone",
+    "entities": [
+      [
+        17,
+        29,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get a camera phone",
+    "entities": [
+      [
+        12,
+        24,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "I need gaming laptop with lightweight design, but too expensive",
+    "entities": [
+      [
+        7,
+        20,
+        "PRODUCT"
+      ],
+      [
+        26,
+        44,
+        "FEATURE"
+      ],
+      [
+        50,
+        63,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest gaming laptop because my current one has fan noise",
+    "entities": [
+      [
+        15,
+        28,
+        "PRODUCT"
+      ],
+      [
+        56,
+        65,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for SAP Sales Cloud but under 100k",
+    "entities": [
+      [
+        17,
+        32,
+        "PRODUCT"
+      ],
+      [
+        37,
+        47,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for CRM system with automation and around 90000",
+    "entities": [
+      [
+        19,
+        29,
+        "REQUIREMENT"
+      ],
+      [
+        35,
+        45,
+        "FEATURE"
+      ],
+      [
+        50,
+        62,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I need a laptop for travel",
+    "entities": [
+      [
+        9,
+        26,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest budget phone with smooth performance",
+    "entities": [
+      [
+        16,
+        28,
+        "PRODUCT"
+      ],
+      [
+        34,
+        52,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for SAP Customer Experience that has automation",
+    "entities": [
+      [
+        19,
+        42,
+        "PRODUCT"
+      ],
+      [
+        52,
+        62,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I want Dell XPS 13 with good graphics and limited budget",
+    "entities": [
+      [
+        7,
+        18,
+        "PRODUCT"
+      ],
+      [
+        24,
+        37,
+        "FEATURE"
+      ],
+      [
+        42,
+        56,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I need SAP Customer Experience with analytics and low budget",
+    "entities": [
+      [
+        7,
+        30,
+        "PRODUCT"
+      ],
+      [
+        36,
+        45,
+        "FEATURE"
+      ],
+      [
+        50,
+        60,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for HP Pavilion because my current one has keyboard not working",
+    "entities": [
+      [
+        17,
+        28,
+        "PRODUCT"
+      ],
+      [
+        56,
+        76,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest gaming phone because my current one has app crashing",
+    "entities": [
+      [
+        15,
+        27,
+        "PRODUCT"
+      ],
+      [
+        55,
+        67,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "I need OnePlus 11 with good camera, but I am on a tight budget",
+    "entities": [
+      [
+        7,
+        17,
+        "PRODUCT"
+      ],
+      [
+        23,
+        34,
+        "FEATURE"
+      ],
+      [
+        40,
+        62,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for CRM solution with automation",
+    "entities": [
+      [
+        12,
+        24,
+        "REQUIREMENT"
+      ],
+      [
+        30,
+        40,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for laptop for college and within 1 lakh",
+    "entities": [
+      [
+        12,
+        30,
+        "REQUIREMENT"
+      ],
+      [
+        35,
+        48,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I need a laptop for gaming",
+    "entities": [
+      [
+        9,
+        26,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get CRM solution and under 100k",
+    "entities": [
+      [
+        10,
+        22,
+        "REQUIREMENT"
+      ],
+      [
+        27,
+        37,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for Samsung Galaxy S23 because my current one has heating issue",
+    "entities": [
+      [
+        12,
+        30,
+        "PRODUCT"
+      ],
+      [
+        58,
+        71,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "I want phone for photography and under 100k",
+    "entities": [
+      [
+        7,
+        28,
+        "REQUIREMENT"
+      ],
+      [
+        33,
+        43,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest Acer Nitro laptop because my current one has slow performance",
+    "entities": [
+      [
+        16,
+        33,
+        "PRODUCT"
+      ],
+      [
+        61,
+        77,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get phone for content creation with fast charging",
+    "entities": [
+      [
+        10,
+        36,
+        "REQUIREMENT"
+      ],
+      [
+        42,
+        55,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I need phone for daily use with long battery life",
+    "entities": [
+      [
+        7,
+        26,
+        "REQUIREMENT"
+      ],
+      [
+        32,
+        49,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I need HubSpot CRM with automation and integration with payment gateways",
+    "entities": [
+      [
+        7,
+        18,
+        "PRODUCT"
+      ],
+      [
+        24,
+        34,
+        "FEATURE"
+      ],
+      [
+        56,
+        72,
+        "INTEGRATION"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for MacBook Pro because my current one has slow performance",
+    "entities": [
+      [
+        19,
+        30,
+        "PRODUCT"
+      ],
+      [
+        58,
+        74,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest business laptop with quiet fans",
+    "entities": [
+      [
+        16,
+        31,
+        "PRODUCT"
+      ],
+      [
+        37,
+        47,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for laptop for coding with backlit keyboard",
+    "entities": [
+      [
+        12,
+        29,
+        "REQUIREMENT"
+      ],
+      [
+        35,
+        51,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I want Samsung Galaxy S23 but tight budget",
+    "entities": [
+      [
+        7,
+        25,
+        "PRODUCT"
+      ],
+      [
+        30,
+        42,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for CRM software",
+    "entities": [
+      [
+        12,
+        24,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest CRM solution with secure system and I have a low budget",
+    "entities": [
+      [
+        16,
+        28,
+        "REQUIREMENT"
+      ],
+      [
+        34,
+        47,
+        "FEATURE"
+      ],
+      [
+        52,
+        71,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest SAP Sales Cloud with reporting, but I have a low budget",
+    "entities": [
+      [
+        15,
+        30,
+        "PRODUCT"
+      ],
+      [
+        36,
+        45,
+        "FEATURE"
+      ],
+      [
+        51,
+        70,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for SAP Sales Cloud with user friendly, but I have a low budget",
+    "entities": [
+      [
+        17,
+        32,
+        "PRODUCT"
+      ],
+      [
+        38,
+        51,
+        "FEATURE"
+      ],
+      [
+        57,
+        76,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest HubSpot CRM with automation, but low budget",
+    "entities": [
+      [
+        15,
+        26,
+        "PRODUCT"
+      ],
+      [
+        32,
+        42,
+        "FEATURE"
+      ],
+      [
+        48,
+        58,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I need laptop for video editing with long battery life and limited budget",
+    "entities": [
+      [
+        7,
+        31,
+        "REQUIREMENT"
+      ],
+      [
+        37,
+        54,
+        "FEATURE"
+      ],
+      [
+        59,
+        73,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for CRM system and too expensive",
+    "entities": [
+      [
+        17,
+        27,
+        "REQUIREMENT"
+      ],
+      [
+        32,
+        45,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest gaming laptop with quiet fans, but under 50k",
+    "entities": [
+      [
+        15,
+        28,
+        "PRODUCT"
+      ],
+      [
+        34,
+        44,
+        "FEATURE"
+      ],
+      [
+        50,
+        59,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest HP Pavilion because my current one has overheating issue",
+    "entities": [
+      [
+        16,
+        27,
+        "PRODUCT"
+      ],
+      [
+        55,
+        72,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for Salesforce CRM",
+    "entities": [
+      [
+        17,
+        31,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest SAP Sales Cloud that has automation",
+    "entities": [
+      [
+        15,
+        30,
+        "PRODUCT"
+      ],
+      [
+        40,
+        50,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for SAP Customer Experience with automation, but affordable price",
+    "entities": [
+      [
+        12,
+        35,
+        "PRODUCT"
+      ],
+      [
+        41,
+        51,
+        "FEATURE"
+      ],
+      [
+        57,
+        73,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest Dell XPS 13 with quiet fans and under 90000",
+    "entities": [
+      [
+        16,
+        27,
+        "PRODUCT"
+      ],
+      [
+        33,
+        43,
+        "FEATURE"
+      ],
+      [
+        48,
+        59,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I need a gaming laptop with good graphics",
+    "entities": [
+      [
+        9,
+        22,
+        "PRODUCT"
+      ],
+      [
+        28,
+        41,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for phone for photography and under 50k",
+    "entities": [
+      [
+        17,
+        38,
+        "REQUIREMENT"
+      ],
+      [
+        43,
+        52,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for something with lightweight design",
+    "entities": [
+      [
+        27,
+        45,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I want budget phone with smooth performance and under 70000",
+    "entities": [
+      [
+        7,
+        19,
+        "PRODUCT"
+      ],
+      [
+        25,
+        43,
+        "FEATURE"
+      ],
+      [
+        48,
+        59,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest CRM solution",
+    "entities": [
+      [
+        16,
+        28,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for CRM solution with reporting and around 80k",
+    "entities": [
+      [
+        12,
+        24,
+        "REQUIREMENT"
+      ],
+      [
+        30,
+        39,
+        "FEATURE"
+      ],
+      [
+        44,
+        54,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get HubSpot CRM that has reporting",
+    "entities": [
+      [
+        10,
+        21,
+        "PRODUCT"
+      ],
+      [
+        31,
+        40,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest SAP Customer Experience but facing slow performance",
+    "entities": [
+      [
+        15,
+        38,
+        "PRODUCT"
+      ],
+      [
+        50,
+        66,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest Acer Nitro laptop but under 90000",
+    "entities": [
+      [
+        16,
+        33,
+        "PRODUCT"
+      ],
+      [
+        38,
+        49,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for CRM solution and affordable price",
+    "entities": [
+      [
+        17,
+        29,
+        "REQUIREMENT"
+      ],
+      [
+        34,
+        50,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for SAP Customer Experience with reporting",
+    "entities": [
+      [
+        12,
+        35,
+        "PRODUCT"
+      ],
+      [
+        41,
+        50,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Need something with good display",
+    "entities": [
+      [
+        20,
+        32,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for Lenovo ThinkPad",
+    "entities": [
+      [
+        17,
+        32,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest Samsung Galaxy S23 but low budget",
+    "entities": [
+      [
+        15,
+        33,
+        "PRODUCT"
+      ],
+      [
+        38,
+        48,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for phone for daily use and under 100k",
+    "entities": [
+      [
+        17,
+        36,
+        "REQUIREMENT"
+      ],
+      [
+        41,
+        51,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for Samsung Galaxy S23 with smooth performance, but low budget",
+    "entities": [
+      [
+        12,
+        30,
+        "PRODUCT"
+      ],
+      [
+        36,
+        54,
+        "FEATURE"
+      ],
+      [
+        60,
+        70,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest SAP Customer Experience with reporting and integration with payment gateways",
+    "entities": [
+      [
+        15,
+        38,
+        "PRODUCT"
+      ],
+      [
+        44,
+        53,
+        "FEATURE"
+      ],
+      [
+        75,
+        91,
+        "INTEGRATION"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for phone for gaming with long battery life and within 60000",
+    "entities": [
+      [
+        19,
+        35,
+        "REQUIREMENT"
+      ],
+      [
+        41,
+        58,
+        "FEATURE"
+      ],
+      [
+        63,
+        75,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get SAP Customer Experience with user friendly and budget under 1 lakh",
+    "entities": [
+      [
+        10,
+        33,
+        "PRODUCT"
+      ],
+      [
+        39,
+        52,
+        "FEATURE"
+      ],
+      [
+        57,
+        76,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest budget phone but tight budget",
+    "entities": [
+      [
+        15,
+        27,
+        "PRODUCT"
+      ],
+      [
+        32,
+        44,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for camera phone with smooth performance and under 100k",
+    "entities": [
+      [
+        19,
+        31,
+        "PRODUCT"
+      ],
+      [
+        37,
+        55,
+        "FEATURE"
+      ],
+      [
+        60,
+        70,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I need camera phone with smooth performance, but under 50k",
+    "entities": [
+      [
+        7,
+        19,
+        "PRODUCT"
+      ],
+      [
+        25,
+        43,
+        "FEATURE"
+      ],
+      [
+        49,
+        58,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for a HP Pavilion",
+    "entities": [
+      [
+        14,
+        25,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for HP Pavilion but budget under 1 lakh",
+    "entities": [
+      [
+        19,
+        30,
+        "PRODUCT"
+      ],
+      [
+        35,
+        54,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get Lenovo ThinkPad that has SSD storage",
+    "entities": [
+      [
+        10,
+        25,
+        "PRODUCT"
+      ],
+      [
+        35,
+        46,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for HubSpot CRM",
+    "entities": [
+      [
+        12,
+        23,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get CRM software with integration with payment gateways and under 50k",
+    "entities": [
+      [
+        10,
+        22,
+        "REQUIREMENT"
+      ],
+      [
+        45,
+        61,
+        "INTEGRATION"
+      ],
+      [
+        66,
+        75,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for camera phone but under 50k",
+    "entities": [
+      [
+        12,
+        24,
+        "PRODUCT"
+      ],
+      [
+        29,
+        38,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get creator laptop with good graphics and around 50k",
+    "entities": [
+      [
+        10,
+        24,
+        "PRODUCT"
+      ],
+      [
+        30,
+        43,
+        "FEATURE"
+      ],
+      [
+        48,
+        58,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I want Dell XPS 13 with long battery life",
+    "entities": [
+      [
+        7,
+        18,
+        "PRODUCT"
+      ],
+      [
+        24,
+        41,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I need HubSpot CRM that has automation",
+    "entities": [
+      [
+        7,
+        18,
+        "PRODUCT"
+      ],
+      [
+        28,
+        38,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest business laptop with quiet fans and under 100k",
+    "entities": [
+      [
+        16,
+        31,
+        "PRODUCT"
+      ],
+      [
+        37,
+        47,
+        "FEATURE"
+      ],
+      [
+        52,
+        62,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for CRM system with integration with ERP systems and under 100k",
+    "entities": [
+      [
+        17,
+        27,
+        "REQUIREMENT"
+      ],
+      [
+        50,
+        61,
+        "INTEGRATION"
+      ],
+      [
+        66,
+        76,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I need Dell XPS 13 because my current one has fan noise",
+    "entities": [
+      [
+        7,
+        18,
+        "PRODUCT"
+      ],
+      [
+        46,
+        55,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "I need a Salesforce CRM",
+    "entities": [
+      [
+        9,
+        23,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "I want CRM system and affordable price",
+    "entities": [
+      [
+        7,
+        17,
+        "REQUIREMENT"
+      ],
+      [
+        22,
+        38,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for CRM software with reporting",
+    "entities": [
+      [
+        17,
+        29,
+        "REQUIREMENT"
+      ],
+      [
+        35,
+        44,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get a gaming phone",
+    "entities": [
+      [
+        12,
+        24,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for gaming phone that has long battery life",
+    "entities": [
+      [
+        17,
+        29,
+        "PRODUCT"
+      ],
+      [
+        39,
+        56,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest Lenovo ThinkPad but budget is low",
+    "entities": [
+      [
+        15,
+        30,
+        "PRODUCT"
+      ],
+      [
+        35,
+        48,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for Acer Nitro laptop with quiet fans",
+    "entities": [
+      [
+        17,
+        34,
+        "PRODUCT"
+      ],
+      [
+        40,
+        50,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for something with long battery life",
+    "entities": [
+      [
+        32,
+        49,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest CRM software with integration with third-party tools and I have a low budget",
+    "entities": [
+      [
+        15,
+        27,
+        "REQUIREMENT"
+      ],
+      [
+        50,
+        67,
+        "INTEGRATION"
+      ],
+      [
+        72,
+        91,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest HP Pavilion",
+    "entities": [
+      [
+        15,
+        26,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get phone for daily use",
+    "entities": [
+      [
+        10,
+        29,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest camera phone because my current one has app crashing",
+    "entities": [
+      [
+        16,
+        28,
+        "PRODUCT"
+      ],
+      [
+        56,
+        68,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "I want budget phone but affordable price",
+    "entities": [
+      [
+        7,
+        19,
+        "PRODUCT"
+      ],
+      [
+        24,
+        40,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest gaming laptop with quiet fans",
+    "entities": [
+      [
+        16,
+        29,
+        "PRODUCT"
+      ],
+      [
+        35,
+        45,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I want student laptop with fast processor and within 1 lakh",
+    "entities": [
+      [
+        7,
+        21,
+        "PRODUCT"
+      ],
+      [
+        27,
+        41,
+        "FEATURE"
+      ],
+      [
+        46,
+        59,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for HubSpot CRM with user friendly, but around 80k",
+    "entities": [
+      [
+        12,
+        23,
+        "PRODUCT"
+      ],
+      [
+        29,
+        42,
+        "FEATURE"
+      ],
+      [
+        48,
+        58,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for HubSpot CRM with secure system, but around 50k",
+    "entities": [
+      [
+        17,
+        28,
+        "PRODUCT"
+      ],
+      [
+        34,
+        47,
+        "FEATURE"
+      ],
+      [
+        53,
+        63,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest laptop for coding with lightweight design",
+    "entities": [
+      [
+        15,
+        32,
+        "REQUIREMENT"
+      ],
+      [
+        38,
+        56,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for laptop for everyday use with fast processor",
+    "entities": [
+      [
+        19,
+        42,
+        "REQUIREMENT"
+      ],
+      [
+        48,
+        62,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I want creator laptop but tight budget",
+    "entities": [
+      [
+        7,
+        21,
+        "PRODUCT"
+      ],
+      [
+        26,
+        38,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for camera phone but I have a low budget",
+    "entities": [
+      [
+        12,
+        24,
+        "PRODUCT"
+      ],
+      [
+        29,
+        48,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest phone for gaming",
+    "entities": [
+      [
+        15,
+        31,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest CRM solution with integration with ERP systems and affordable price",
+    "entities": [
+      [
+        16,
+        28,
+        "REQUIREMENT"
+      ],
+      [
+        51,
+        62,
+        "INTEGRATION"
+      ],
+      [
+        67,
+        83,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I need a phone for gaming",
+    "entities": [
+      [
+        9,
+        25,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest something with SSD storage",
+    "entities": [
+      [
+        30,
+        41,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I need laptop for office work with fast processor and budget under 1 lakh",
+    "entities": [
+      [
+        7,
+        29,
+        "REQUIREMENT"
+      ],
+      [
+        35,
+        49,
+        "FEATURE"
+      ],
+      [
+        54,
+        73,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I want laptop for travel with quiet fans and budget under 1 lakh",
+    "entities": [
+      [
+        7,
+        24,
+        "REQUIREMENT"
+      ],
+      [
+        30,
+        40,
+        "FEATURE"
+      ],
+      [
+        45,
+        64,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for Acer Nitro laptop but within 60000",
+    "entities": [
+      [
+        12,
+        29,
+        "PRODUCT"
+      ],
+      [
+        34,
+        46,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest Dell XPS 13 because my current one has keyboard not working",
+    "entities": [
+      [
+        16,
+        27,
+        "PRODUCT"
+      ],
+      [
+        55,
+        75,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for a laptop for gaming",
+    "entities": [
+      [
+        19,
+        36,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest Dell XPS 13 that has long battery life",
+    "entities": [
+      [
+        15,
+        26,
+        "PRODUCT"
+      ],
+      [
+        36,
+        53,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest CRM system with analytics",
+    "entities": [
+      [
+        15,
+        25,
+        "REQUIREMENT"
+      ],
+      [
+        31,
+        40,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I need SAP Sales Cloud with secure system and integration with ERP systems",
+    "entities": [
+      [
+        7,
+        22,
+        "PRODUCT"
+      ],
+      [
+        28,
+        41,
+        "FEATURE"
+      ],
+      [
+        63,
+        74,
+        "INTEGRATION"
+      ]
+    ]
+  },
+  {
+    "text": "I want Acer Nitro laptop that has quiet fans",
+    "entities": [
+      [
+        7,
+        24,
+        "PRODUCT"
+      ],
+      [
+        34,
+        44,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I need SAP Customer Experience but facing system delay",
+    "entities": [
+      [
+        7,
+        30,
+        "PRODUCT"
+      ],
+      [
+        42,
+        54,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest MacBook Pro with long battery life",
+    "entities": [
+      [
+        15,
+        26,
+        "PRODUCT"
+      ],
+      [
+        32,
+        49,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get phone for content creation",
+    "entities": [
+      [
+        10,
+        36,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for Acer Nitro laptop with long battery life",
+    "entities": [
+      [
+        19,
+        36,
+        "PRODUCT"
+      ],
+      [
+        42,
+        59,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for business laptop that has backlit keyboard",
+    "entities": [
+      [
+        17,
+        32,
+        "PRODUCT"
+      ],
+      [
+        42,
+        58,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest creator laptop",
+    "entities": [
+      [
+        15,
+        29,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "I want CRM solution",
+    "entities": [
+      [
+        7,
+        19,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get CRM software and my budget is low",
+    "entities": [
+      [
+        10,
+        22,
+        "REQUIREMENT"
+      ],
+      [
+        27,
+        43,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get SAP Sales Cloud because my current one has system delay",
+    "entities": [
+      [
+        10,
+        25,
+        "PRODUCT"
+      ],
+      [
+        53,
+        65,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "I want Samsung Galaxy S23",
+    "entities": [
+      [
+        7,
+        25,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "I want phone for gaming with smooth performance",
+    "entities": [
+      [
+        7,
+        23,
+        "REQUIREMENT"
+      ],
+      [
+        29,
+        47,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for office laptop with long battery life, but low budget",
+    "entities": [
+      [
+        17,
+        30,
+        "PRODUCT"
+      ],
+      [
+        36,
+        53,
+        "FEATURE"
+      ],
+      [
+        59,
+        69,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest business laptop with high performance and too expensive",
+    "entities": [
+      [
+        16,
+        31,
+        "PRODUCT"
+      ],
+      [
+        37,
+        53,
+        "FEATURE"
+      ],
+      [
+        58,
+        71,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for CRM solution with integration with cloud services and within 1 lakh",
+    "entities": [
+      [
+        19,
+        31,
+        "REQUIREMENT"
+      ],
+      [
+        54,
+        68,
+        "INTEGRATION"
+      ],
+      [
+        73,
+        86,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for MacBook Pro but within 60000",
+    "entities": [
+      [
+        12,
+        23,
+        "PRODUCT"
+      ],
+      [
+        28,
+        40,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I want ASUS ROG laptop with high refresh rate",
+    "entities": [
+      [
+        7,
+        22,
+        "PRODUCT"
+      ],
+      [
+        28,
+        45,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get something with high refresh rate",
+    "entities": [
+      [
+        25,
+        42,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest HubSpot CRM but facing system delay",
+    "entities": [
+      [
+        15,
+        26,
+        "PRODUCT"
+      ],
+      [
+        38,
+        50,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "I want laptop for coding with good cooling and I have a low budget",
+    "entities": [
+      [
+        7,
+        24,
+        "REQUIREMENT"
+      ],
+      [
+        30,
+        42,
+        "FEATURE"
+      ],
+      [
+        47,
+        66,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for a Samsung Galaxy S23",
+    "entities": [
+      [
+        14,
+        32,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for SAP Sales Cloud with automation",
+    "entities": [
+      [
+        19,
+        34,
+        "PRODUCT"
+      ],
+      [
+        40,
+        50,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for camera phone but tight budget",
+    "entities": [
+      [
+        17,
+        29,
+        "PRODUCT"
+      ],
+      [
+        34,
+        46,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get Salesforce CRM with user friendly",
+    "entities": [
+      [
+        10,
+        24,
+        "PRODUCT"
+      ],
+      [
+        30,
+        43,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get phone for photography with long battery life and around 80k",
+    "entities": [
+      [
+        10,
+        31,
+        "REQUIREMENT"
+      ],
+      [
+        37,
+        54,
+        "FEATURE"
+      ],
+      [
+        59,
+        69,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I need budget phone with smooth performance",
+    "entities": [
+      [
+        7,
+        19,
+        "PRODUCT"
+      ],
+      [
+        25,
+        43,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for CRM system with analytics and under 70000",
+    "entities": [
+      [
+        17,
+        27,
+        "REQUIREMENT"
+      ],
+      [
+        33,
+        42,
+        "FEATURE"
+      ],
+      [
+        47,
+        58,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for Acer Nitro laptop because my current one has keyboard not working",
+    "entities": [
+      [
+        19,
+        36,
+        "PRODUCT"
+      ],
+      [
+        64,
+        84,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for Salesforce CRM but facing login issue",
+    "entities": [
+      [
+        12,
+        26,
+        "PRODUCT"
+      ],
+      [
+        38,
+        49,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest business laptop with high refresh rate and under 50k",
+    "entities": [
+      [
+        16,
+        31,
+        "PRODUCT"
+      ],
+      [
+        37,
+        54,
+        "FEATURE"
+      ],
+      [
+        59,
+        68,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for something with high refresh rate",
+    "entities": [
+      [
+        32,
+        49,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for a Salesforce CRM",
+    "entities": [
+      [
+        21,
+        35,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for HubSpot CRM with user friendly",
+    "entities": [
+      [
+        19,
+        30,
+        "PRODUCT"
+      ],
+      [
+        36,
+        49,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for Dell XPS 13 with high performance",
+    "entities": [
+      [
+        19,
+        30,
+        "PRODUCT"
+      ],
+      [
+        36,
+        52,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for HP Pavilion because my current one has screen flickering",
+    "entities": [
+      [
+        19,
+        30,
+        "PRODUCT"
+      ],
+      [
+        58,
+        75,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for Salesforce CRM that has customer interaction",
+    "entities": [
+      [
+        17,
+        31,
+        "PRODUCT"
+      ],
+      [
+        41,
+        61,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get phone for gaming with long battery life and limited budget",
+    "entities": [
+      [
+        10,
+        26,
+        "REQUIREMENT"
+      ],
+      [
+        32,
+        49,
+        "FEATURE"
+      ],
+      [
+        54,
+        68,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for CRM system with reporting",
+    "entities": [
+      [
+        12,
+        22,
+        "REQUIREMENT"
+      ],
+      [
+        28,
+        37,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest ASUS ROG laptop with long battery life and affordable price",
+    "entities": [
+      [
+        15,
+        30,
+        "PRODUCT"
+      ],
+      [
+        36,
+        53,
+        "FEATURE"
+      ],
+      [
+        58,
+        74,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for SAP Customer Experience with customer interaction and integration with third-party tools",
+    "entities": [
+      [
+        19,
+        42,
+        "PRODUCT"
+      ],
+      [
+        48,
+        68,
+        "FEATURE"
+      ],
+      [
+        90,
+        107,
+        "INTEGRATION"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for laptop for office work and I have a low budget",
+    "entities": [
+      [
+        17,
+        39,
+        "REQUIREMENT"
+      ],
+      [
+        44,
+        63,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for CRM software with secure system and tight budget",
+    "entities": [
+      [
+        17,
+        29,
+        "REQUIREMENT"
+      ],
+      [
+        35,
+        48,
+        "FEATURE"
+      ],
+      [
+        53,
+        65,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest SAP Sales Cloud that has automation",
+    "entities": [
+      [
+        16,
+        31,
+        "PRODUCT"
+      ],
+      [
+        41,
+        51,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get a laptop for everyday use",
+    "entities": [
+      [
+        12,
+        35,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for camera phone because my current one has heating issue",
+    "entities": [
+      [
+        12,
+        24,
+        "PRODUCT"
+      ],
+      [
+        52,
+        65,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "I want OnePlus 11 that has high refresh rate",
+    "entities": [
+      [
+        7,
+        17,
+        "PRODUCT"
+      ],
+      [
+        27,
+        44,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get laptop for video editing with lightweight design and under 90000",
+    "entities": [
+      [
+        10,
+        34,
+        "REQUIREMENT"
+      ],
+      [
+        40,
+        58,
+        "FEATURE"
+      ],
+      [
+        63,
+        74,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for a camera phone",
+    "entities": [
+      [
+        19,
+        31,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for business laptop with SSD storage",
+    "entities": [
+      [
+        12,
+        27,
+        "PRODUCT"
+      ],
+      [
+        33,
+        44,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for ASUS ROG laptop because my current one has fan noise",
+    "entities": [
+      [
+        12,
+        27,
+        "PRODUCT"
+      ],
+      [
+        55,
+        64,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "I want a laptop for college",
+    "entities": [
+      [
+        9,
+        27,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for office laptop with SSD storage",
+    "entities": [
+      [
+        12,
+        25,
+        "PRODUCT"
+      ],
+      [
+        31,
+        42,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for CRM solution with integration with third-party tools and within 60000",
+    "entities": [
+      [
+        12,
+        24,
+        "REQUIREMENT"
+      ],
+      [
+        47,
+        64,
+        "INTEGRATION"
+      ],
+      [
+        69,
+        81,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I want OnePlus 11 with fast charging and I am on a tight budget",
+    "entities": [
+      [
+        7,
+        17,
+        "PRODUCT"
+      ],
+      [
+        23,
+        36,
+        "FEATURE"
+      ],
+      [
+        41,
+        63,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I want Lenovo ThinkPad but limited budget",
+    "entities": [
+      [
+        7,
+        22,
+        "PRODUCT"
+      ],
+      [
+        27,
+        41,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest a laptop for office work",
+    "entities": [
+      [
+        18,
+        40,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "I want ASUS ROG laptop with high refresh rate, but too expensive",
+    "entities": [
+      [
+        7,
+        22,
+        "PRODUCT"
+      ],
+      [
+        28,
+        45,
+        "FEATURE"
+      ],
+      [
+        51,
+        64,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get phone for photography with good display and under 50k",
+    "entities": [
+      [
+        10,
+        31,
+        "REQUIREMENT"
+      ],
+      [
+        37,
+        49,
+        "FEATURE"
+      ],
+      [
+        54,
+        63,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest a phone for gaming",
+    "entities": [
+      [
+        17,
+        33,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for phone for photography with good display and under 50k",
+    "entities": [
+      [
+        17,
+        38,
+        "REQUIREMENT"
+      ],
+      [
+        44,
+        56,
+        "FEATURE"
+      ],
+      [
+        61,
+        70,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get Salesforce CRM but around 80k",
+    "entities": [
+      [
+        10,
+        24,
+        "PRODUCT"
+      ],
+      [
+        29,
+        39,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I need something with smooth performance",
+    "entities": [
+      [
+        22,
+        40,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get CRM solution with secure system and limited budget",
+    "entities": [
+      [
+        10,
+        22,
+        "REQUIREMENT"
+      ],
+      [
+        28,
+        41,
+        "FEATURE"
+      ],
+      [
+        46,
+        60,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for laptop for video editing with high performance",
+    "entities": [
+      [
+        19,
+        43,
+        "REQUIREMENT"
+      ],
+      [
+        49,
+        65,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for OnePlus 11 because my current one has battery draining fast",
+    "entities": [
+      [
+        12,
+        22,
+        "PRODUCT"
+      ],
+      [
+        50,
+        71,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest Samsung Galaxy S23 with fast charging, but budget under 1 lakh",
+    "entities": [
+      [
+        16,
+        34,
+        "PRODUCT"
+      ],
+      [
+        40,
+        53,
+        "FEATURE"
+      ],
+      [
+        59,
+        78,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest office laptop with SSD storage",
+    "entities": [
+      [
+        15,
+        28,
+        "PRODUCT"
+      ],
+      [
+        34,
+        45,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for OnePlus 11 because my current one has app crashing",
+    "entities": [
+      [
+        19,
+        29,
+        "PRODUCT"
+      ],
+      [
+        57,
+        69,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "I want ASUS ROG laptop but within 1 lakh",
+    "entities": [
+      [
+        7,
+        22,
+        "PRODUCT"
+      ],
+      [
+        27,
+        40,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for phone for photography and under 70000",
+    "entities": [
+      [
+        12,
+        33,
+        "REQUIREMENT"
+      ],
+      [
+        38,
+        49,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for HubSpot CRM with user friendly",
+    "entities": [
+      [
+        12,
+        23,
+        "PRODUCT"
+      ],
+      [
+        29,
+        42,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest CRM solution with reporting and budget under 1 lakh",
+    "entities": [
+      [
+        15,
+        27,
+        "REQUIREMENT"
+      ],
+      [
+        33,
+        42,
+        "FEATURE"
+      ],
+      [
+        47,
+        66,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest SAP Sales Cloud but facing data sync problem",
+    "entities": [
+      [
+        15,
+        30,
+        "PRODUCT"
+      ],
+      [
+        42,
+        59,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "I need something with good camera",
+    "entities": [
+      [
+        22,
+        33,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get laptop for college with high performance",
+    "entities": [
+      [
+        10,
+        28,
+        "REQUIREMENT"
+      ],
+      [
+        34,
+        50,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I need HubSpot CRM but low budget",
+    "entities": [
+      [
+        7,
+        18,
+        "PRODUCT"
+      ],
+      [
+        23,
+        33,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I need a laptop for office work",
+    "entities": [
+      [
+        9,
+        31,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for something with good display",
+    "entities": [
+      [
+        34,
+        46,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get laptop for gaming and my budget is low",
+    "entities": [
+      [
+        10,
+        27,
+        "REQUIREMENT"
+      ],
+      [
+        32,
+        48,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest laptop for everyday use and under 90000",
+    "entities": [
+      [
+        15,
+        38,
+        "REQUIREMENT"
+      ],
+      [
+        43,
+        54,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for a SAP Customer Experience",
+    "entities": [
+      [
+        14,
+        37,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for HP Pavilion with good cooling, but under 70000",
+    "entities": [
+      [
+        17,
+        28,
+        "PRODUCT"
+      ],
+      [
+        34,
+        46,
+        "FEATURE"
+      ],
+      [
+        52,
+        63,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for CRM software and budget is low",
+    "entities": [
+      [
+        12,
+        24,
+        "REQUIREMENT"
+      ],
+      [
+        29,
+        42,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest iPhone 14 with smooth performance and tight budget",
+    "entities": [
+      [
+        16,
+        25,
+        "PRODUCT"
+      ],
+      [
+        31,
+        49,
+        "FEATURE"
+      ],
+      [
+        54,
+        66,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for phone for gaming",
+    "entities": [
+      [
+        19,
+        35,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get SAP Sales Cloud with reporting",
+    "entities": [
+      [
+        10,
+        25,
+        "PRODUCT"
+      ],
+      [
+        31,
+        40,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for laptop for college",
+    "entities": [
+      [
+        12,
+        30,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for SAP Sales Cloud with reporting and integration with third-party tools",
+    "entities": [
+      [
+        19,
+        34,
+        "PRODUCT"
+      ],
+      [
+        40,
+        49,
+        "FEATURE"
+      ],
+      [
+        71,
+        88,
+        "INTEGRATION"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for laptop for gaming with long battery life",
+    "entities": [
+      [
+        17,
+        34,
+        "REQUIREMENT"
+      ],
+      [
+        40,
+        57,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest Salesforce CRM but facing system delay",
+    "entities": [
+      [
+        15,
+        29,
+        "PRODUCT"
+      ],
+      [
+        41,
+        53,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for laptop for video editing with quiet fans and affordable price",
+    "entities": [
+      [
+        19,
+        43,
+        "REQUIREMENT"
+      ],
+      [
+        49,
+        59,
+        "FEATURE"
+      ],
+      [
+        64,
+        80,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest Samsung Galaxy S23 because my current one has app crashing",
+    "entities": [
+      [
+        15,
+        33,
+        "PRODUCT"
+      ],
+      [
+        61,
+        73,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for Samsung Galaxy S23 with long battery life, but budget under 1 lakh",
+    "entities": [
+      [
+        12,
+        30,
+        "PRODUCT"
+      ],
+      [
+        36,
+        53,
+        "FEATURE"
+      ],
+      [
+        59,
+        78,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for Dell XPS 13 because my current one has keyboard not working",
+    "entities": [
+      [
+        19,
+        30,
+        "PRODUCT"
+      ],
+      [
+        58,
+        78,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "I want MacBook Pro",
+    "entities": [
+      [
+        7,
+        18,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for laptop for college with backlit keyboard and limited budget",
+    "entities": [
+      [
+        12,
+        30,
+        "REQUIREMENT"
+      ],
+      [
+        36,
+        52,
+        "FEATURE"
+      ],
+      [
+        57,
+        71,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest laptop for office work with lightweight design",
+    "entities": [
+      [
+        15,
+        37,
+        "REQUIREMENT"
+      ],
+      [
+        43,
+        61,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I need CRM solution",
+    "entities": [
+      [
+        7,
+        19,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "I need gaming laptop",
+    "entities": [
+      [
+        7,
+        20,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "I need laptop for office work and around 50k",
+    "entities": [
+      [
+        7,
+        29,
+        "REQUIREMENT"
+      ],
+      [
+        34,
+        44,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I want CRM solution and within 60000",
+    "entities": [
+      [
+        7,
+        19,
+        "REQUIREMENT"
+      ],
+      [
+        24,
+        36,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I want CRM system with analytics",
+    "entities": [
+      [
+        7,
+        17,
+        "REQUIREMENT"
+      ],
+      [
+        23,
+        32,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I want MacBook Pro with quiet fans and within 1 lakh",
+    "entities": [
+      [
+        7,
+        18,
+        "PRODUCT"
+      ],
+      [
+        24,
+        34,
+        "FEATURE"
+      ],
+      [
+        39,
+        52,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest a CRM solution",
+    "entities": [
+      [
+        17,
+        29,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get a OnePlus 11",
+    "entities": [
+      [
+        12,
+        22,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "I need SAP Sales Cloud with user friendly and within 1 lakh",
+    "entities": [
+      [
+        7,
+        22,
+        "PRODUCT"
+      ],
+      [
+        28,
+        41,
+        "FEATURE"
+      ],
+      [
+        46,
+        59,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get student laptop",
+    "entities": [
+      [
+        10,
+        24,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get SAP Sales Cloud but facing data sync problem",
+    "entities": [
+      [
+        10,
+        25,
+        "PRODUCT"
+      ],
+      [
+        37,
+        54,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "I want HubSpot CRM with user friendly, but too expensive",
+    "entities": [
+      [
+        7,
+        18,
+        "PRODUCT"
+      ],
+      [
+        24,
+        37,
+        "FEATURE"
+      ],
+      [
+        43,
+        56,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I need CRM solution and budget is low",
+    "entities": [
+      [
+        7,
+        19,
+        "REQUIREMENT"
+      ],
+      [
+        24,
+        37,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can I get iPhone 14 with good camera",
+    "entities": [
+      [
+        10,
+        19,
+        "PRODUCT"
+      ],
+      [
+        25,
+        36,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for SAP Customer Experience because my current one has slow performance",
+    "entities": [
+      [
+        12,
+        35,
+        "PRODUCT"
+      ],
+      [
+        63,
+        79,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest budget phone because my current one has charging problem",
+    "entities": [
+      [
+        16,
+        28,
+        "PRODUCT"
+      ],
+      [
+        56,
+        72,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for SAP Customer Experience but facing system delay",
+    "entities": [
+      [
+        12,
+        35,
+        "PRODUCT"
+      ],
+      [
+        47,
+        59,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for a phone for gaming",
+    "entities": [
+      [
+        14,
+        30,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for CRM solution with customer interaction",
+    "entities": [
+      [
+        12,
+        24,
+        "REQUIREMENT"
+      ],
+      [
+        30,
+        50,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for laptop for video editing with lightweight design and under 50k",
+    "entities": [
+      [
+        12,
+        36,
+        "REQUIREMENT"
+      ],
+      [
+        42,
+        60,
+        "FEATURE"
+      ],
+      [
+        65,
+        74,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest something with fast charging",
+    "entities": [
+      [
+        31,
+        44,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I want a ASUS ROG laptop",
+    "entities": [
+      [
+        9,
+        24,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest phone for gaming with good camera",
+    "entities": [
+      [
+        15,
+        31,
+        "REQUIREMENT"
+      ],
+      [
+        37,
+        48,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I am searching for creator laptop but tight budget",
+    "entities": [
+      [
+        19,
+        33,
+        "PRODUCT"
+      ],
+      [
+        38,
+        50,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for Samsung Galaxy S23 with fast charging",
+    "entities": [
+      [
+        17,
+        35,
+        "PRODUCT"
+      ],
+      [
+        41,
+        54,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I need CRM system with secure system and under 90000",
+    "entities": [
+      [
+        7,
+        17,
+        "REQUIREMENT"
+      ],
+      [
+        23,
+        36,
+        "FEATURE"
+      ],
+      [
+        41,
+        52,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for Lenovo ThinkPad because my current one has screen flickering",
+    "entities": [
+      [
+        17,
+        32,
+        "PRODUCT"
+      ],
+      [
+        60,
+        77,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "I want laptop for college with good cooling",
+    "entities": [
+      [
+        7,
+        25,
+        "REQUIREMENT"
+      ],
+      [
+        31,
+        43,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I want camera phone with long battery life and I am on a tight budget",
+    "entities": [
+      [
+        7,
+        19,
+        "PRODUCT"
+      ],
+      [
+        25,
+        42,
+        "FEATURE"
+      ],
+      [
+        47,
+        69,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for HubSpot CRM that has automation",
+    "entities": [
+      [
+        12,
+        23,
+        "PRODUCT"
+      ],
+      [
+        33,
+        43,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I am looking for a laptop for travel",
+    "entities": [
+      [
+        19,
+        36,
+        "REQUIREMENT"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest gaming laptop that has lightweight design",
+    "entities": [
+      [
+        15,
+        28,
+        "PRODUCT"
+      ],
+      [
+        38,
+        56,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "I want phone for gaming with good display and around 50k",
+    "entities": [
+      [
+        7,
+        23,
+        "REQUIREMENT"
+      ],
+      [
+        29,
+        41,
+        "FEATURE"
+      ],
+      [
+        46,
+        56,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I want something with lightweight design",
+    "entities": [
+      [
+        22,
+        40,
+        "FEATURE"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for camera phone but around 90000",
+    "entities": [
+      [
+        12,
+        24,
+        "PRODUCT"
+      ],
+      [
+        29,
+        41,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "Looking for SAP Sales Cloud but facing login issue",
+    "entities": [
+      [
+        12,
+        27,
+        "PRODUCT"
+      ],
+      [
+        39,
+        50,
+        "ISSUE"
+      ]
+    ]
+  },
+  {
+    "text": "Can you suggest SAP Customer Experience with reporting, but within 60000",
+    "entities": [
+      [
+        16,
+        39,
+        "PRODUCT"
+      ],
+      [
+        45,
+        54,
+        "FEATURE"
+      ],
+      [
+        60,
+        72,
+        "BUDGET"
+      ]
+    ]
+  },
+  {
+    "text": "I want a Samsung Galaxy S23",
+    "entities": [
+      [
+        9,
+        27,
+        "PRODUCT"
+      ]
+    ]
+  },
+  {
+    "text": "Please suggest SAP Customer Experience with customer interaction and around 50k",
+    "entities": [
+      [
+        15,
+        38,
+        "PRODUCT"
+      ],
+      [
+        44,
+        64,
+        "FEATURE"
+      ],
+      [
+        69,
+        79,
+        "BUDGET"
+      ]
+    ]
+  }
+]

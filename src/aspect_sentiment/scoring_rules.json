@@ -1,0 +1,12 @@
+{
+  "fusion_weights": {
+    "xgboost_prediction": 0.40,
+    "behavioral_score": 0.20,
+    "intent_score": 0.20,
+    "emotion_score": 0.10,
+    "engagement_score": 0.10
+  },
+  "score_normalization": {
+    "max_behavioral_points": 100
+  }
+}

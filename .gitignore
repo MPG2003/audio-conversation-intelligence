@@ -1,0 +1,40 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.pyc.*
+*.pyo
+
+# Frontend build artifacts
+frontend/node_modules/
+frontend/.next/
+frontend/dist/
+frontend/*.tsbuildinfo
+
+# Data uploads (runtime generated)
+data/raw/_uploads/
+
+# Logs and test results
+*.log
+*.err
+test_*_results.json
+
+# Environment files (never commit secrets)
+.env
+.env.*
+!.env.example
+!frontend/.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large binaries — Railway installs ffmpeg via apt in the Dockerfile
+ffmpeg-bin/
+ffmpeg-*/
+
+# Large archive not needed for hosting
+folders.zip
+
+# Whisper cache (downloaded at runtime on the server)
+.cache/

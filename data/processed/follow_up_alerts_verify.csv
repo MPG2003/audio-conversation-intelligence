@@ -1,0 +1,2 @@
+id,follow_up_required,customer_name,company_name,action_needed,priority,reason,source_text,created_date,status,source_name,source_type
+90b96fd0-244b-4a59-bab3-8725b9e5a52b,true,Test Customer,Test Co,Send proposal,High,Customer asked for proposal,Please send the proposal.,2026-06-02T10:02:33.315377Z,Completed,verify,text

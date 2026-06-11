@@ -1,0 +1,22 @@
+openai-whisper
+torch
+python-pptx
+python-docx
+pandas
+numpy
+spacy
+python-dotenv
+vaderSentiment
+fastapi
+uvicorn
+python-multipart
+scikit-learn
+joblib
+xgboost
+streamlit
+websockets
+wsproto
+uvicorn[standard]
+# Optional production diarization backend. Requires HUGGINGFACE_TOKEN and model access.
+pyannote.audio
+httpx

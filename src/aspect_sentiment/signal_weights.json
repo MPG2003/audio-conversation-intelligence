@@ -1,0 +1,26 @@
+{
+  "positive_signals": {
+    "asked_for_emi": 15,
+    "asked_for_followup": 15,
+    "asked_for_whatsapp": 15,
+    "asked_for_reservation": 20,
+    "asked_for_warranty": 10,
+    "asked_for_cashback": 10,
+    "asked_for_stock_availability": 15,
+    "asked_for_specifications": 10,
+    "detailed_product_comparison": 10,
+    "emotional_leaning": 20,
+    "asked_for_payment_details": 20,
+    "positive_engagement": 10,
+    "technical_involvement": 10
+  },
+  "negative_signals": {
+    "hesitation": -10,
+    "delayed_decision": -10,
+    "wants_external_approval": -10,
+    "price_concern": -5,
+    "comparison_confusion": -5,
+    "uncertainty": -10,
+    "no_urgency": -15
+  }
+}

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexus AI | Audio Upload & Diagnostic Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ai: {
+              blue: '#0A84FF',
+              cyan: '#32D74B',
+              purple: '#BF5AF2',
+              dark: '#030712'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background-color: #030712;
+      background-image: radial-gradient(circle at 50% 0%, rgba(10, 132, 255, 0.08) 0%, transparent 50%);
+      background-attachment: fixed;
+    }
+    .glass {
+      background: rgba(255, 255, 255, 0.02);
+      backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+    .terminal {
+      font-family: 'Courier New', Courier, monospace;
+      background: rgba(0, 0, 0, 0.6);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+  </style>
+</head>
+<body class="text-gray-300 min-h-screen">
+  <div class="max-w-5xl mx-auto px-6 py-12">
+    
+    <!-- Header -->
+    <div class="flex flex-col md:flex-row md:items-center justify-between gap-6 border-b border-white/5 pb-8 mb-12">
+      <div>
+        <div class="flex items-center gap-2 mb-2">
+          <span class="w-2.5 h-2.5 rounded-full bg-ai-blue shadow-lg shadow-ai-blue/50"></span>
+          <span class="text-xs uppercase tracking-wider text-ai-blue font-bold">Diagnostics Panel</span>
+        </div>
+        <h1 class="text-3xl font-extrabold text-white tracking-tight">Audio Pipeline Debugger</h1>
+        <p class="text-sm text-gray-500 mt-1">Verify backend connectivity, test feature extractions, and trace audio queue states.</p>
+      </div>
+      
+      <!-- Back to app -->
+      <a href="http://localhost:5173" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white/5 hover:bg-white/10 text-sm font-semibold text-white border border-white/10 hover:border-white/20 transition">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
+        Back to Dashboard
+      </a>
+    </div>
+
+    <!-- Steps & Logs Grid -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      
+      <!-- Steps Column -->
+      <div class="lg:col-span-1 space-y-6">
+        
+        <!-- Step 1: Health Check -->
+        <div class="glass rounded-2xl p-5 space-y-3 relative overflow-hidden">
+          <div class="absolute top-0 right-0 w-24 h-24 bg-ai-blue/5 rounded-full blur-2xl"></div>
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-gray-500 uppercase">Test Step 1</span>
+            <span id="step-1-badge" class="px-2 py-0.5 rounded text-[10px] font-bold uppercase bg-gray-500/10 text-gray-500">Not Run</span>
+          </div>
+          <h2 class="text-md font-semibold text-white">Check API Health</h2>
+          <p class="text-xs text-gray-400">Hits `/api/health` to confirm the backend microservices (spaCy, VADER, PyTorch) are loaded.</p>
+          <button onclick="runHealthCheck()" class="w-full py-2 rounded-lg bg-ai-blue/10 hover:bg-ai-blue/20 text-ai-blue text-xs font-bold border border-ai-blue/20 transition">
+            Run Health Test
+          </button>
+        </div>
+
+        <!-- Step 2: Text Analysis -->
+        <div class="glass rounded-2xl p-5 space-y-3 relative overflow-hidden">
+          <div class="absolute top-0 right-0 w-24 h-24 bg-ai-purple/5 rounded-full blur-2xl"></div>
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-gray-500 uppercase">Test Step 2</span>
+            <span id="step-2-badge" class="px-2 py-0.5 rounded text-[10px] font-bold uppercase bg-gray-500/10 text-gray-500">Not Run</span>
+          </div>
+          <h2 class="text-md font-semibold text-white">Analyze Sample Text</h2>
+          <p class="text-xs text-gray-400">Hits `/api/analyze` with a sample CRM query to verify NLP signal extraction layers.</p>
+          <button onclick="runTextAnalysis()" class="w-full py-2 rounded-lg bg-ai-purple/10 hover:bg-ai-purple/20 text-ai-purple text-xs font-bold border border-ai-purple/20 transition">
+            Run NLP Text Test
+          </button>
+        </div>
+
+        <!-- Step 3: Audio Upload -->
+        <div class="glass rounded-2xl p-5 space-y-3 relative overflow-hidden">
+          <div class="absolute top-0 right-0 w-24 h-24 bg-ai-cyan/5 rounded-full blur-2xl"></div>
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-gray-500 uppercase">Test Step 3</span>
+            <span id="step-3-badge" class="px-2 py-0.5 rounded text-[10px] font-bold uppercase bg-gray-500/10 text-gray-500">Not Run</span>
+          </div>
+          <h2 class="text-md font-semibold text-white">Upload & Transcribe Audio</h2>
+          <p class="text-xs text-gray-400">Select an audio transcript file, upload it, and trace the asynchronous celery-like task worker.</p>
+          
+          <input type="file" id="audio-file-select" class="hidden" accept="audio/*" onchange="handleFileChange(event)">
+          <button onclick="document.getElementById('audio-file-select').click()" id="file-select-btn" class="w-full py-3 rounded-lg border border-dashed border-white/10 hover:border-white/20 text-xs text-gray-400 transition flex items-center justify-center gap-2 bg-black/20">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
+            Select Audio File
+          </button>
+          
+          <button onclick="runAudioUpload()" id="upload-btn" disabled class="w-full py-2 rounded-lg bg-gray-800 text-gray-600 text-xs font-bold border border-white/5 cursor-not-allowed transition">
+            Upload & Trace Job
+          </button>
+        </div>
+
+      </div>
+
+      <!-- Logs / Outputs Column -->
+      <div class="lg:col-span-2 flex flex-col h-full min-h-[500px]">
+        <div class="glass rounded-2xl p-6 flex flex-col flex-1">
+          <div class="flex items-center justify-between border-b border-white/5 pb-4 mb-4">
+            <div class="flex items-center gap-2">
+              <span class="w-2.5 h-2.5 rounded-full bg-ai-cyan"></span>
+              <h3 class="text-sm font-semibold text-white">Real-Time Console Output</h3>
+            </div>
+            <button onclick="clearConsole()" class="text-xs text-gray-500 hover:text-white transition">Clear Console</button>
+          </div>
+          
+          <div class="flex-1 terminal rounded-xl p-4 overflow-auto max-h-[460px] text-xs font-mono text-gray-300 space-y-2" id="console-logs">
+            <div class="text-gray-500">// Diagnostic engine ready. Select a test step to begin tracing.</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    const API_BASE = 'http://localhost:8000';
+    let selectedFile = null;
+
+    function log(message, type = 'info') {
+      const consoleLogs = document.getElementById('console-logs');
+      const div = document.createElement('div');
+      
+      const time = new Date().toLocaleTimeString();
+      let colorClass = 'text-gray-300';
+      let prefix = '[INFO]';
+      
+      if (type === 'success') {
+        colorClass = 'text-green-400';
+        prefix = '[PASS]';
+      } else if (type === 'error') {
+        colorClass = 'text-red-400';
+        prefix = '[FAIL]';
+      } else if (type === 'warn') {
+        colorClass = 'text-yellow-400';
+        prefix = '[WARN]';
+      } else if (type === 'debug') {
+        colorClass = 'text-blue-400';
+        prefix = '[DEBG]';
+      }
+      
+      div.className = colorClass;
+      div.innerHTML = `<span class="text-gray-600">[${time}]</span> <span class="font-bold">${prefix}</span> ${message}`;
+      consoleLogs.appendChild(div);
+      consoleLogs.scrollTop = consoleLogs.scrollHeight;
+    }
+
+    function clearConsole() {
+      document.getElementById('console-logs').innerHTML = '<div class="text-gray-500">// Diagnostic engine cleared.</div>';
+    }
+
+    function updateBadge(id, status, colorClass) {
+      const badge = document.getElementById(id);
+      badge.innerText = status;
+      badge.className = `px-2 py-0.5 rounded text-[10px] font-bold uppercase ${colorClass}`;
+    }
+
+    // Run Health Check
+    async function runHealthCheck() {
+      log('Running Backend Health Check (GET /api/health)...');
+      updateBadge('step-1-badge', 'Running', 'bg-blue-500/10 text-blue-500 border border-blue-500/20');
+      
+      try {
+        const res = await fetch(`${API_BASE}/api/health`);
+        if (res.ok) {
+          const data = await res.json();
+          log(`Backend is active. Response: ${JSON.stringify(data)}`, 'success');
+          updateBadge('step-1-badge', 'Passed', 'bg-green-500/10 text-green-500 border border-green-500/20');
+        } else {
+          throw new Error(`Status ${res.status}`);
+        }
+      } catch (err) {
+        log(`Backend health check failed: ${err.message}`, 'error');
+        updateBadge('step-1-badge', 'Failed', 'bg-red-500/10 text-red-500 border border-red-500/20');
+      }
+    }
+
+    // Run Text Analysis
+    async function runTextAnalysis() {
+      log('Running Text Analysis Test (POST /api/analyze)...');
+      updateBadge('step-2-badge', 'Running', 'bg-blue-500/10 text-blue-500 border border-blue-500/20');
+      
+      const payload = {
+        text: "My name is John. I want to buy a laptop for college. My budget is 70000 INR. Need it immediately.",
+        sourceName: "diag-client"
+      };
+      
+      log(`Payload: ${JSON.stringify(payload)}`, 'debug');
+      
+      try {
+        const res = await fetch(`${API_BASE}/api/analyze`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(payload)
+        });
+        
+        if (res.ok) {
+          const data = await res.json();
+          log(`Analysis successful. Sentiment: ${data.summary.dominant}, Score: ${data.conversionScore.label}`, 'success');
+          log(`Extracted raw features: ${JSON.stringify(data.rawFeatures)}`, 'debug');
+          updateBadge('step-2-badge', 'Passed', 'bg-green-500/10 text-green-500 border border-green-500/20');
+        } else {
+          throw new Error(`Status ${res.status}`);
+        }
+      } catch (err) {
+        log(`Text analysis test failed: ${err.message}`, 'error');
+        updateBadge('step-2-badge', 'Failed', 'bg-red-500/10 text-red-500 border border-red-500/20');
+      }
+    }
+
+    // File change handler
+    function handleFileChange(event) {
+      const file = event.target.files[0];
+      if (file) {
+        selectedFile = file;
+        document.getElementById('file-select-btn').innerText = `${file.name} (${(file.size / 1024 / 1024).toFixed(2)} MB)`;
+        
+        const uploadBtn = document.getElementById('upload-btn');
+        uploadBtn.disabled = false;
+        uploadBtn.className = 'w-full py-2 rounded-lg bg-ai-cyan text-black text-xs font-bold border border-ai-cyan/20 hover:bg-ai-cyan/90 transition shadow-lg shadow-ai-cyan/10';
+        log(`Selected audio file: ${file.name} (${file.size} bytes)`);
+      }
+    }
+
+    // Run Audio Upload
+    async function runAudioUpload() {
+      if (!selectedFile) return;
+      
+      log(`Uploading audio file '${selectedFile.name}' (POST /api/upload)...`);
+      updateBadge('step-3-badge', 'Uploading', 'bg-yellow-500/10 text-yellow-500 border border-yellow-500/20');
+      
+      const formData = new FormData();
+      formData.append('audio', selectedFile);
+      
+      try {
+        const res = await fetch(`${API_BASE}/api/upload`, {
+          method: 'POST',
+          body: formData
+        });
+        
+        if (!res.ok) throw new Error(`Upload status ${res.status}`);
+        
+        const data = await res.json();
+        const jobId = data.job_id;
+        log(`Audio uploaded successfully. Job ID received: ${jobId}`, 'success');
+        log(`Polling job status (GET /api/jobs/${jobId}) every 2 seconds...`, 'info');
+        updateBadge('step-3-badge', 'Processing', 'bg-blue-500/10 text-blue-500 border border-blue-500/20');
+
+        let attempts = 0;
+        const maxAttempts = 45;
+        
+        const poll = setInterval(async () => {
+          attempts++;
+          try {
+            const jobRes = await fetch(`${API_BASE}/api/jobs/${jobId}`);
+            if (!jobRes.ok) throw new Error(`Polling status ${jobRes.status}`);
+            
+            const jobData = await jobRes.json();
+            log(`Poll #${attempts}: Status is '${jobData.status}'`, 'debug');
+            
+            if (jobData.status === 'completed') {
+              clearInterval(poll);
+              log(`Audio job finished successfully!`, 'success');
+              log(`Whisper Transcript: "${jobData.result.transcript}"`, 'debug');
+              log(`Lead Prediction: ${JSON.stringify(jobData.result.conversionScore)}`, 'success');
+              updateBadge('step-3-badge', 'Passed', 'bg-green-500/10 text-green-500 border border-green-500/20');
+            } else if (jobData.status === 'failed') {
+              clearInterval(poll);
+              log(`Job worker execution failed: ${jobData.error}`, 'error');
+              updateBadge('step-3-badge', 'Failed', 'bg-red-500/10 text-red-500 border border-red-500/20');
+            }
+          } catch (err) {
+            log(`Job polling error: ${err.message}`, 'warn');
+          }
+          
+          if (attempts >= maxAttempts) {
+            clearInterval(poll);
+            log(`Audio job timed out after 90 seconds. Check API backend logs.`, 'error');
+            updateBadge('step-3-badge', 'Timeout', 'bg-red-500/10 text-red-500 border border-red-500/20');
+          }
+        }, 2000);
+        
+      } catch (err) {
+        log(`Audio upload failed: ${err.message}`, 'error');
+        updateBadge('step-3-badge', 'Failed', 'bg-red-500/10 text-red-500 border border-red-500/20');
+      }
+    }
+  </script>
+</body>
+</html>

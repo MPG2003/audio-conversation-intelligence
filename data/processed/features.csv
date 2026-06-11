@@ -1,0 +1,95 @@
+file,text,product,budget,brand_count,use_case_count,preference,intent_strength,decision_stage,sentiment,hesitation,follow_up_needed,offer_given,emi_option,product_suggested,word_count,sentence_count
+conv_001.txt,"Start.
+Hi, I want a washing machine under 30,000.
+Sure. What will you mainly use it for?
+For a family of four, daily washing and some heavy loads.
+Do you have any brand preference like LG, Samsung, or Whirlpool?
+Not really. Just something durable and energy efficient.
+Oh, okay. I can suggest an LG front load and a Samsung top load in that range. Both are good for regular use.
+Okay, but I’m not sure if I should buy now.
+We currently have a festive offer and EMI options available.
+I’ll think about it and get back to you later.
+Okay, sure. I’ll share the details with you.
+Thank you.",washing machine,30000,3,1,lg,weak,awareness,positive,1,1,1,1,1,113,16
+conv_002.txt,"Start.
+Looking for a smartphone around 45,000 with great camera.
+Mainly for daily use and photos.
+Any preference like Apple or Samsung?
+Prefer Samsung if the camera is good.
+I suggest the Samsung S23 FE, good camera and offers available today.
+Do you have EMI?
+Yes, no-cost EMI for 6 months.
+Great, let me think and I'll confirm.
+",phone,45000,2,0,apple,medium,consideration,positive,0,1,1,1,1,60,8
+conv_003.txt,"Start.
+I need a 55 inch 4K TV under 70,000 for movies and sports.
+Brands? I like LG or Sony.
+We have an LG OLED on discount and a Sony Bravia at that price.
+Is there any festival offer?
+Yes, we have a 10% card offer and EMI.
+I'll decide tonight.
+",tv,55,1,0,lg,medium,consideration,positive,0,1,1,1,0,53,8
+conv_004.txt,"Start.
+Looking for a 1.5 ton inverter AC around 38,000 for a bedroom.
+Any brand preference? Maybe Daikin or LG.
+We have LG dual inverter and Daikin models, both in stock.
+Is there installation included?
+Standard installation is included, offer valid this week.
+I will confirm tomorrow.
+",ac,1,1,0,lg,medium,awareness,neutral,1,1,1,0,0,47,8
+conv_005.txt,"Start.
+Need a double-door refrigerator under 35,000, energy efficient.
+Brands? Whirlpool or Samsung preferred.
+Recommending Samsung 324L and Whirlpool 300L, both 3-star with offers.
+Do you have EMI?
+Yes, 9-month no cost EMI.
+Okay, share details, I will discuss with family.
+",refrigerator,35000,2,0,samsung,medium,consideration,neutral,0,1,1,1,1,44,8
+conv_006.txt,"Start.
+I want a gaming laptop around 90,000 for AAA titles and coding.
+No brand bias; maybe ASUS or MSI.
+We have ASUS TUF with RTX 4060 and MSI Katana in that range.
+Any launch offers?
+Yes, 5k instant discount and exchange bonus.
+Sounds good, let me check benchmarks and revert.
+",laptop,90000,2,2,asus,medium,awareness,positive,1,1,1,0,0,51,7
+conv_007.txt,"Start.
+Looking for a vacuum cleaner under 12,000, cordless if possible.
+Brand? Maybe Dyson too costly, so Philips or Eureka Forbes.
+We have Philips cordless at 11,500; EMI available.
+Is there any discount today?
+Flat 1,000 off today only.
+Okay, I will think and let you know.
+",vacuum cleaner,12000,0,0,none,medium,awareness,neutral,1,1,1,1,0,47,7
+conv_008.txt,"Start.
+Need a microwave oven around 15,000 mainly for reheating and grilling.
+Any brand preference? Not really, maybe Panasonic or IFB.
+We suggest IFB 25L convection with offer price.
+Do you provide demo?
+Yes, free demo and EMI options.
+Great, send me the quote.
+",microwave,15000,2,0,ifb,medium,awareness,positive,1,1,1,1,1,44,8
+conv_009.txt,"Start.
+I want a desktop for video editing under 1,20,000.
+Prefer custom build with Ryzen and NVIDIA GPU.
+We can configure Ryzen 7 with RTX 4070 and 32GB RAM.
+Any offers?
+Bank offer 7% and easy EMI available.
+Let me compare and come back.
+",desktop,120000,0,0,none,medium,consideration,neutral,0,1,1,1,0,45,7
+conv_010.txt,"Start.
+Looking for a smartwatch under 20,000 with good fitness tracking.
+Brands? Thinking Garmin or Samsung.
+We recommend Samsung Galaxy Watch and Garmin Venu Sq in that budget.
+Is there launch offer?
+Yes, limited-time discount till Sunday.
+I will decide after checking reviews.
+",smartwatch,20000,1,0,samsung,medium,consideration,positive,0,1,1,0,1,44,8
+conv_011.txt,"Start.
+I need a budget laptop under 45,000 for office work and browsing.
+Prefer HP or Lenovo.
+We have HP 15s and Lenovo Ideapad Slim in that price.
+Any EMI?
+Yes, 12-month no cost EMI plus card offer.
+Okay, share the specs, I'll confirm.
+",laptop,45000,2,2,hp,medium,consideration,neutral,0,1,1,1,0,46,7
