@@ -42,7 +42,6 @@ RUN python -m spacy download en_core_web_sm
 COPY src/ ./src/
 COPY data/ ./data/
 COPY models/ ./models/
-COPY streamlit_app.py .
 
 # Make sure __init__.py exists at root so src is importable as a package
 RUN touch __init__.py || true
